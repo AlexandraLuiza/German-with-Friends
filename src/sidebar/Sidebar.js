@@ -17,55 +17,62 @@ export default (props) => {
               Tenses
             </a>
           </li>
-        </ul>
-        <ul>
-          <li>
-            <a className='menu-item' href='/tenses/present'>
-              Present Tense
-            </a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a className='menu-item' href='/tenses/present-perfect'>
-              Present Perfect
-            </a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a className='menu-item' href='/tenses/past-tense'>
-              Past Tense
-            </a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a className='menu-item' href='/tenses/past-perfect'>
-              Past Perfect
-            </a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a className='menu-item' href='/tenses/future'>
-              Future
-            </a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a className='menu-item' href='/tenses/future-perfect'>
-              Future Perfect
-            </a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a className='menu-item' href='/tenses/irregular-verbs'>
-              Irregular Verbs
-            </a>
-          </li>
+          <ul>
+            <li>
+              <a className='menu-item' href='/tenses/present'>
+                Present Tense
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/tenses/present-perfect'>
+                Present Perfect
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/tenses/present-perfect'>
+                Present Perfect
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/tenses/past-tense'>
+                Past Tense
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/tenses/past-perfect'>
+                Past Perfect
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/tenses/future'>
+                Future
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/tenses/future-perfect'>
+                Future Perfect
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/tenses/irregular-verbs'>
+                Irregular Verbs
+              </a>
+            </li>
+          </ul>
         </ul>
       </div>
 
