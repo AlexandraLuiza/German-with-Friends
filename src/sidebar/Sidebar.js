@@ -74,6 +74,160 @@ export default (props) => {
             </li>
           </ul>
         </ul>
+        <ul>
+          <li>
+            <a className='menu-item' href='/verbs'>
+              Verbs
+            </a>
+          </li>
+          <ul>
+            <li>
+              <a className='menu-item' href='/verbs'>
+                Haben/Sein
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/verbs'>
+                Participles
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/verbs'>
+                Modal Verbs
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/verbs'>
+                Infinitive with/without zu
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/verbs'>
+                Reflexive verbs
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/verbs'>
+                Separable verbs
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/verbs'>
+                Transitive/Intransitive verbs
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/verbs'>
+                Passive
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/verbs'>
+                Imperative
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/verbs'>
+                Subjunctive
+              </a>
+            </li>
+            <ul>
+              <li>
+                <a className='menu-item' href='/verbs'>
+                  Subjunctive I
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a className='menu-item' href='/verbs'>
+                  Subjunctive II
+                </a>
+              </li>
+            </ul>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/verbs'>
+                Reaction of the verbs
+              </a>
+            </li>
+            <ul>
+              <li>
+                <a className='menu-item' href='/verbs'>
+                  Verbs with Accusative
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a className='menu-item' href='/verbs'>
+                  Verbs with Dative
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a className='menu-item' href='/verbs'>
+                  Verbs with Dativ and Accusative
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a className='menu-item' href='/verbs'>
+                  Verbs with two Accusatives
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a className='menu-item' href='/verbs'>
+                  Verbs with Accusative and Genitive
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a className='menu-item' href='/verbs'>
+                  Verbs with Genitive
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a className='menu-item' href='/verbs'>
+                  Verbs with predicate
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a className='menu-item' href='/verbs'>
+                  Verbs with a direct object in Accusative
+                </a>
+              </li>
+            </ul>
+          </ul>
+        </ul>
       </div>
 
       <a className='menu-item' href='/pages'>
