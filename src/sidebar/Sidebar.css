@@ -28,7 +28,7 @@ h2 {
 }
 
 h2:hover {
-  color: #ff0157;
+  color: #000;
   border-style: none;
   text-decoration: none;
 }
@@ -40,10 +40,6 @@ h2:hover {
   color: #000;
   transition: color 0.2s;
   padding-bottom: 4%;
-}
-
-.bm-item:hover {
-  color: #ff0157;
 }
 
 /* de ce nu functioneaza cand ii schimb height and weight??????????????? */

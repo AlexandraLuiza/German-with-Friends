@@ -6,7 +6,8 @@ const Present = () => {
   return (
     <>
       <div>
-        <h2>Introduction</h2>
+        <h2>Präsens – Present Tense </h2>
+        <h4>Introduction</h4>
         <p>
           The present tense also called the simple present (Präsens) is used to
           talk about the present and future in German. In English will be
