@@ -164,69 +164,6 @@ export default (props) => {
               </li>
             </ul>
           </ul>
-          <ul>
-            <li>
-              <a className='menu-item' href='/verbs'>
-                Reaction of the verbs
-              </a>
-            </li>
-            <ul>
-              <li>
-                <a className='menu-item' href='/verbs'>
-                  Verbs with Accusative
-                </a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a className='menu-item' href='/verbs'>
-                  Verbs with Dative
-                </a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a className='menu-item' href='/verbs'>
-                  Verbs with Dativ and Accusative
-                </a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a className='menu-item' href='/verbs'>
-                  Verbs with two Accusatives
-                </a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a className='menu-item' href='/verbs'>
-                  Verbs with Accusative and Genitive
-                </a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a className='menu-item' href='/verbs'>
-                  Verbs with Genitive
-                </a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a className='menu-item' href='/verbs'>
-                  Verbs with predicate
-                </a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a className='menu-item' href='/verbs'>
-                  Verbs with a direct object in Accusative
-                </a>
-              </li>
-            </ul>
-          </ul>
         </ul>
       </div>
 

@@ -2,7 +2,7 @@ import React from "react"
 import "./Tenses.css"
 import { Table } from "react-bootstrap"
 
-export const Tenses = () => {
+const Tenses = () => {
   return (
     <>
       <div>
@@ -356,3 +356,5 @@ export const Tenses = () => {
     </>
   )
 }
+
+export default Tenses
