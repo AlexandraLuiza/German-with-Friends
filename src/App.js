@@ -1,7 +1,7 @@
 import React from "react"
 import "./App.css"
 import Sidebar from "./sidebar/Sidebar"
-import Grammar from "./pages/Grammar"
+import Grammar from "./categories/Grammar"
 import Links from "./links/Links"
 import About from "./about/About"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
@@ -13,7 +13,7 @@ import Login from "./login/Login"
 import PrivateRoute from "./login/PrivateRoute"
 import ForgotPassword from "./login/ForgotPassword"
 import UpdateProfile from "./login/UpdateProfile"
-import Quiz from "./pages/Quiz"
+import Quiz from "./categories/Quiz"
 
 function App() {
   return (
@@ -39,8 +39,8 @@ function App() {
         <Links>
           <Router>
             <Switch>
-              <Route path='./links' component={Links} />
-              <Route path='./about' component={About} />
+              <Route path='/links' component={Links} />
+              <Route path='/about' component={About} />
             </Switch>
           </Router>
         </Links>
