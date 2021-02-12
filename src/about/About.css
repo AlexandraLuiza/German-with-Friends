@@ -1,0 +1,17 @@
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin: auto;
+  justify-content: space-evenly;
+  margin: 0 12px 0 12px;
+}
+
+@media (min-width: 700px) {
+  p {
+    justify-content: space-evenly;
+    margin-left: 12px;
+  }
+}
