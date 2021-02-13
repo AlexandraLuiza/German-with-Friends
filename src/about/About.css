@@ -1,17 +1,19 @@
 .about {
   display: flex;
   justify-content: center;
+  margin-top: 5%;
+  color: #00996f;
 }
 
 .paragraph {
   margin: auto;
   justify-content: space-evenly;
-  margin: 0 12px 0 12px;
+  margin: 0 20px 0 20px;
 }
 
 @media (min-width: 700px) {
   p {
     justify-content: space-evenly;
-    margin-left: 12px;
+    margin-left: 20px;
   }
 }
