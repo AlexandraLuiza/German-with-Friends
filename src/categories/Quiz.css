@@ -1,14 +1,19 @@
 .app {
-  background-color: #252d4a;
-  width: 450px;
+  box-sizing: border-box;
+  background-color: #00996f;
+  width: 500px;
   min-height: 200px;
   height: min-content;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 20px;
   box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
   display: flex;
-  justify-content: space-evenly;
-  align-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: "monospace", sans-serif;
 }
 
 .score-section {
@@ -40,16 +45,6 @@
   color: #fff;
 }
 
-.timer-text {
-  background: rgb(230, 153, 12);
-  padding: 15px;
-  margin-top: 20px;
-  margin-right: 20px;
-  border: 5px solid rgb(255, 189, 67);
-  border-radius: 15px;
-  text-align: center;
-}
-
 /* ANSWERS/RIGHT SECTION */
 .answer-section {
   width: 100%;
@@ -62,13 +57,13 @@ button {
   width: 100%;
   font-size: 16px;
   color: #ffffff;
-  background-color: #252d4a;
-  border-radius: 15px;
+  background-color: #00805d;
+  border-radius: 10px;
   display: flex;
   padding: 5px;
   justify-content: flex-start;
   align-items: center;
-  border: 5px solid #234668;
+  border: 5px solid #00664a;
   cursor: pointer;
 }
 
@@ -78,4 +73,13 @@ button {
 
 .incorrect {
   background-color: #ff3333;
+}
+
+button:focus {
+  outline: none;
+}
+
+.restart {
+  width: 80px;
+  margin-left: 10%;
 }

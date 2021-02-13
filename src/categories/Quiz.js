@@ -60,6 +60,9 @@ export default function Quiz() {
       {showScore ? (
         <div className='score-section'>
           You scored {score} out of {questions.length}
+          <div>
+            <button className='restart'>Restart</button>
+          </div>
         </div>
       ) : (
         <>

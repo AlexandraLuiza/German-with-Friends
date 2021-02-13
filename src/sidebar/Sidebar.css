@@ -20,7 +20,7 @@ body {
   text-align: center;
   overflow: auto;
 }
-h2 {
+.categories {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   border-style: none;
