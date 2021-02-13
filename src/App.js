@@ -1,6 +1,5 @@
 import React from "react"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import Grammar from "./categories/Grammar"
 import Links from "./links/Links"
 import About from "./about/About"
 import Sidebar from "./sidebar/Sidebar"
@@ -21,35 +20,35 @@ function App() {
   return (
     <>
       <div>
-        <Sidebar>
-          <Router>
+        <h1>
+          <span>German</span> with Friends
+        </h1>
+        <h5>
+          Have <span>Fun</span> while learning
+        </h5>
+        <Sidebar></Sidebar>
+        <Links></Links>
+        <Router>
+          <AuthProvider>
             <Switch>
-              <Route path='/sidebar' component={Sidebar} />
-              <Route path='/pages' component={Grammar} />
-              <Route path='/pages' component={Quiz} />
-              <Route path='/grammar' component={Tenses} />
-              <Route path='/grammar' component={Present} />
-            </Switch>
-          </Router>
-        </Sidebar>
-      </div>
-      <h1>
-        <span>German</span> with Friends
-      </h1>
-      <h5>
-        Have <span>Fun</span> while learning
-      </h5>
-      <div>
-        <Links>
-          <Router>
-            <Switch>
-              <Route path='/links' component={Links} />
+              <PrivateRoute exact path='/' component={Dashboard} />
+              <PrivateRoute path='/update' component={UpdateProfile} />
+              <Route className='container' path='/signup' component={Signup} />
+              <Route className='container' path='/login' component={Login} />
+              <Route
+                className='container'
+                path='/forgot'
+                component={ForgotPassword}
+              />
+              <Route path='/tenses' component={Tenses} />
               <Route path='/about' component={About} />
+              <Route path='/quiz' component={Quiz} />
+              <Route path='/present' component={Present} />
             </Switch>
-          </Router>
-        </Links>
+          </AuthProvider>
+        </Router>
       </div>
-      <div>
+      {/* 
         <Container
           className='d-flex align-items-center justify-content-center'
           style={{ minHeight: "100vh" }}
@@ -75,6 +74,7 @@ function App() {
           </div>
         </Container>
       </div>
+    </> */}
     </>
   )
 }

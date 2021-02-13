@@ -1,3 +1,7 @@
+* {
+  outline: none;
+}
+
 html,
 body {
   margin: 0;
@@ -23,7 +27,7 @@ body {
 h2 {
   text-decoration: none;
   color: #000;
-  font-family: "Lobster Two", cursive;
+  font-family: "Montserrat", sans-serif;
   border-style: none;
 }
 

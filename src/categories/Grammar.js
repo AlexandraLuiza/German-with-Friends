@@ -69,6 +69,7 @@ const grammar = () => {
           </a>
         </li>
       </ul>
+      <Quiz></Quiz>
     </div>
   )
 }
