@@ -1,38 +1,9 @@
 * {
   box-sizing: border-box;
+  outline: none;
 }
 
 #page-wrap {
   display: inline;
   justify-content: center;
-}
-
-h1 {
-  left: 0;
-  line-height: 200px;
-  margin-top: -100px;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  width: 100%;
-  font-family: "Montserrat", sans-serif;
-}
-
-h5 {
-  left: 0;
-  line-height: 200px;
-  margin-top: -50px;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  width: 100%;
-  font-family: "Montserrat", sans-serif;
-}
-
-div h2:hover {
-  color: #000;
-}
-
-h5 > span {
-  font-weight: bold;
 }

@@ -4,7 +4,7 @@ import "./Grammar.css"
 const grammar = () => {
   return (
     <div>
-      <ul>
+      {/* <ul>
         <li>
           <a href='#'>
             <i className='fas fa-caret-right arrow'></i>Tenses
@@ -68,7 +68,7 @@ const grammar = () => {
             <i className='fas fa-caret-right arrow'></i>Sentence Structure
           </a>
         </li>
-      </ul>
+      </ul> */}
     </div>
   )
 }

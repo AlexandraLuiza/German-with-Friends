@@ -20,6 +20,11 @@ h5 {
   font-family: "Montserrat", sans-serif;
 }
 
+h1 > span {
+  color: #00996f;
+}
+
 h5 > span {
   font-weight: bold;
+  color: #00996f;
 }

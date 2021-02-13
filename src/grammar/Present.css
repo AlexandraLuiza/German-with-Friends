@@ -1,3 +1,47 @@
-ul > p {
-  text-decoration: none;
+.introduction {
+  font-size: 1.5rem;
+  margin: 10px 0px 10px 20px;
+  color: #00996f;
+  margin-left: 5%;
+}
+
+.title {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: #00996f;
+  font-weight: 500;
+}
+.introparag {
+  padding: 0px 25px 0px 25px;
+}
+
+.conjugation {
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.endingen {
+  margin-bottom: 1.5%;
+  padding: 0px 25px 0px 25px;
+}
+
+ul > li {
+  list-style-type: square;
+}
+
+.verbs {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 0px 25px 0px 25px;
+}
+
+.table-bordered {
+  border-bottom: 2px solid #dee2e6;
+}
+
+.exceptions {
+  padding: 0px 25px 0px 25px;
 }

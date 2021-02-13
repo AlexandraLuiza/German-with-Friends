@@ -7,12 +7,18 @@ function Navigation() {
     <>
       <div id='wrapper'>
         <div className='links'>
-          <Navbar fixed='top'>
+          <Navbar fixed='top' className='navbar'>
             <Navbar.Collapse id='basic-navbar-nav'>
               <Nav className='ml-auto'>
-                <Nav.Link href='/about'>About Us</Nav.Link>
-                <Nav.Link href='#'>En/Ro</Nav.Link>
-                <Nav.Link href='/login'>Log In/Sign Up</Nav.Link>
+                <Nav.Link href='/about' className='navigation'>
+                  About Us
+                </Nav.Link>
+                <Nav.Link href='#' className='navigation'>
+                  En/Ro
+                </Nav.Link>
+                <Nav.Link href='/login' className='navigation'>
+                  Log In/Sign Up
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

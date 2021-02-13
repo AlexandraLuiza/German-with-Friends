@@ -6,9 +6,9 @@ const Present = () => {
   return (
     <>
       <div>
-        <h2>Präsens – Present Tense </h2>
-        <h4>Introduction</h4>
-        <p>
+        <h2 className='title'>Präsens – Present Tense </h2>
+        <h4 className='introduction'>Introduction</h4>
+        <p className='introparag'>
           The present tense also called the simple present (Präsens) is used to
           talk about the present and future in German. In English will be
           corresponding with: the simple present, present progressive and future
@@ -16,12 +16,14 @@ const Present = () => {
         </p>
       </div>
       <div>
-        <h4>Conjugation of German Verbs in Present Tense</h4>
-        <p>
+        <h4 className='conjugation'>
+          Conjugation of German Verbs in Present Tense
+        </h4>
+        <p className='endingen'>
           To conjugate verbs in the German present tense, the infinitive ending
           <em>-en</em> is removed and add the following endings are added:
         </p>
-        <Table responsive='sm'>
+        <Table responsive='sm' className='table-bordered'>
           <thead>
             <tr>
               <th>Person</th>
@@ -76,18 +78,18 @@ const Present = () => {
         </Table>
       </div>
       <div>
-        <p>
-          The verbs
+        <p className='verbs'>
+          The verbs{" "}
           <span>
             <em>sein</em>
-          </span>
-          and
+          </span>{" "}
+          and{" "}
           <span>
             <em>haben</em>
-          </span>
+          </span>{" "}
           are irregular:
         </p>
-        <Table responsive='sm'>
+        <Table responsive='sm' className='table-bordered'>
           <thead>
             <tr>
               <th>Person</th>
@@ -141,23 +143,23 @@ const Present = () => {
           </tbody>
         </Table>
       </div>
-      <div>
+      <div className='exceptions'>
         <h4>Exceptions</h4>
         <ul>
           <li>
             If the word stem ends in <em>d/t</em>, an <em>e</em> is added before
-            the endings <em>-st</em> and <em>-t</em>
-            <p>This doesn’t happen when the vowel changes.</p>
+            the endings <em>-st</em> and <em>-t</em>. This doesn’t happen when
+            the vowel changes.
             <p>
-              Example: laden - du lädst, er lädt, ihr lad<span>e</span>t (vowel
-              change a to ä)
+              Example: laden - du l<em>ä</em>dst, er l<em>ä</em>dt, ihr lad
+              <span>e</span>t (vowel change a to ä)
             </p>
           </li>
         </ul>
         <ul>
           <li>
             If the word stem ends in <em>s/ß/x/z</em>, the <em>s</em> is removed
-            in the 2<sup>nd</sup> person singular ending
+            in the 2<sup>nd</sup> person singular ending.
             <p>
               Example: tanzen – du tanzt (not: <del>tanzst</del>)
             </p>

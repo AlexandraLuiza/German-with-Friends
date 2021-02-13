@@ -3,7 +3,7 @@ h2 {
   justify-content: center;
 }
 
-p {
+.paragraph {
   margin: auto;
   justify-content: space-evenly;
   margin: 0 12px 0 12px;

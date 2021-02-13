@@ -7,14 +7,14 @@ export default (props) => {
     <Menu>
       <h2>Categories</h2>
       <div>
-        <a className='menu-item' href='/grammar'>
+        <a className='menu-item' href='#'>
           <i className='fas fa-caret-right arrow'></i>
           Grammar
         </a>
         <ul>
           <li>
             <a className='menu-item' href='/tenses'>
-              Tenses
+              Tenses Overview
             </a>
           </li>
           <ul>

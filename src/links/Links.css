@@ -21,8 +21,13 @@
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
 }
-.navbar-light .navbar-nav .nav-link {
-  color: #000;
+.navigation {
+  color: #fff !important;
+  font-weight: bold;
+}
+.navbar {
+  padding-top: 0%;
+  background-color: #00996f;
 }
 
 div a {

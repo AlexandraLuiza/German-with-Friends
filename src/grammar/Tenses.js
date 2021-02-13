@@ -6,9 +6,11 @@ const Tenses = () => {
   return (
     <>
       <div>
-        <h2>German Tenses with Verb Conjugations: Overview</h2>
-        <h4>Introduction</h4>
-        <p>
+        <h2 className='title'>
+          German Tenses with Verb Conjugations: Overview
+        </h2>
+        <h4 className='introduction'>Introduction</h4>
+        <p className='parag'>
           German language has six tenses: <span>present</span> (Präsens),{" "}
           <span>present perfect</span> (Perfekt), <span>simple past</span>{" "}
           (Präteritum), <span>past perfect</span> (Plusquamperfekt),{" "}
@@ -17,7 +19,7 @@ const Tenses = () => {
         </p>
       </div>
       <div>
-        <Table responsive='md'>
+        <Table responsive='sm' className='table-bordered'>
           <thead>
             <tr>
               <th>Tense</th>

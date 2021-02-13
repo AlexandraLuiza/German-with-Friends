@@ -1,10 +1,15 @@
-h4 {
+* {
+  box-sizing: border-box;
+}
+
+.introduction {
   font-size: 1.5rem;
   margin: 10px 0px 10px 20px;
   color: #00996f;
+  margin-left: 5%;
 }
 
-h2 {
+.title {
   display: flex;
   position: relative;
   align-items: center;
@@ -26,7 +31,20 @@ ul li {
   list-style-type: square;
 }
 
-p {
-  margin: 0px 0px 10px 20px;
+.parag {
+  padding: 0px 25px 0px 25px;
   font-family: "monospace", sans-serif;
+}
+
+.table-bordered {
+  width: 80%;
+  margin-top: 1.5%;
+  margin: 0% 10% 0% 10%;
+  border-left: 2px solid #dee2e6;
+  border-right: 2px solid #dee2e6;
+  margin-bottom: 2%;
+}
+
+tr > th {
+  text-align: center;
 }
