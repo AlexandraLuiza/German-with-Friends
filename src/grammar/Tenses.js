@@ -1,6 +1,6 @@
 import React from "react"
-import "./Tenses.css"
 import { Table } from "react-bootstrap"
+import "./Tenses.css"
 
 const Tenses = () => {
   return (
@@ -9,14 +9,11 @@ const Tenses = () => {
         <h2>German Tenses with Verb Conjugations: Overview</h2>
         <h4>Introduction</h4>
         <p>
-          German has six tenses: <span>present</span> (Präsens),
-          <span>present perfect</span>
-          (Perfekt),
-          <span>simple past</span> (Präteritum),
-          <span>past perfect</span>
-          (Plusquamperfekt),
-          <span>future</span> (Futur I) and
-          <span>future perfect</span> (Futur II).
+          German language has six tenses: <span>present</span> (Präsens),{" "}
+          <span>present perfect</span> (Perfekt), <span>simple past</span>{" "}
+          (Präteritum), <span>past perfect</span> (Plusquamperfekt),{" "}
+          <span>future</span> (Futur I) and <span>future perfect</span> (Futur
+          II).
         </p>
       </div>
       <div>
@@ -77,7 +74,7 @@ const Tenses = () => {
                 </ul>
               </td>
               <td>
-                <ul>
+                <ul className='bullets'>
                   <li>a condition or action in the present</li>
                   <li>a pre-arranged action in the future</li>
                 </ul>
@@ -130,7 +127,7 @@ const Tenses = () => {
                 </ul>
               </td>
               <td>
-                <ul>
+                <ul className='bullets'>
                   <li>a completed action in the past</li>
                   <li>usually focusing on the result of the action</li>
                 </ul>
@@ -179,7 +176,7 @@ const Tenses = () => {
                 </ul>
               </td>
               <td>
-                <ul>
+                <ul className='bullets'>
                   <li>a condition or completed action in the past</li>
                   <li>stories, reports</li>
                 </ul>
@@ -232,7 +229,7 @@ const Tenses = () => {
                 </ul>
               </td>
               <td>
-                <ul>
+                <ul className='bullets'>
                   <li>
                     an action that took place before a certain point in the past
                   </li>
@@ -286,7 +283,7 @@ const Tenses = () => {
                 </ul>
               </td>
               <td>
-                <ul>
+                <ul className='bullets'>
                   <li>
                     intention, supposition, or hope for the future or present
                   </li>
@@ -340,7 +337,7 @@ const Tenses = () => {
                 </ul>
               </td>
               <td>
-                <ul>
+                <ul className='bullets'>
                   <li>supposition about past events</li>
                   <li>
                     supposition or hope about something that will have happened

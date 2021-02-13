@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200vh;
+}
+
+p {
+  max-width: 500px;
+}

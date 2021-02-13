@@ -33,10 +33,6 @@ div h2:hover {
   color: #000;
 }
 
-span {
-  color: #08fdd8;
-}
-
 h5 > span {
   font-weight: bold;
 }
