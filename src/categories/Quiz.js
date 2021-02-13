@@ -81,7 +81,7 @@ export default function Quiz() {
             ))}
           </div>
           <div>
-            <button>Restart</button>
+            <button className='restart'>Restart</button>
           </div>
         </>
       )}

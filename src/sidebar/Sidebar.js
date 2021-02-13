@@ -7,7 +7,7 @@ export default (props) => {
     <Menu>
       <h2>Categories</h2>
       <div>
-        <a className='menu-item' href='/pages'>
+        <a className='menu-item' href='/grammar'>
           <i className='fas fa-caret-right arrow'></i>
           Grammar
         </a>
@@ -27,32 +27,32 @@ export default (props) => {
         </ul>
       </div>
 
-      <a className='menu-item' href='/pages'>
+      <a className='menu-item' href='/vocabulary'>
         <i className='fas fa-caret-right arrow'></i>
         Vocabulary
       </a>
 
-      <a className='menu-item' href='/pages'>
+      <a className='menu-item' href='/writing'>
         <i className='fas fa-caret-right arrow'></i>
         Writing
       </a>
 
-      <a className='menu-item' href='/pages'>
+      <a className='menu-item' href='/listening'>
         <i className='fas fa-caret-right arrow'></i>
         Listening
       </a>
 
-      <a className='menu-item' href='/pages'>
+      <a className='menu-item' href='/speaking'>
         <i className='fas fa-caret-right arrow'></i>
         Speaking
       </a>
 
-      <a className='menu-item' href='/nopagesde'>
+      <a className='menu-item' href='/exercices'>
         <i className='fas fa-caret-right arrow'></i>
         Exercices
       </a>
 
-      <a className='menu-item' href='/pages'>
+      <a className='menu-item' href='/quizes'>
         <i className='fas fa-caret-right arrow'></i>
         Quizes
       </a>
