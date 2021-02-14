@@ -40,10 +40,22 @@ export default (props) => {
         </a>
         <ul>
           <li>
-            <a className='menu-item' href='/numbers'>
-              Numbers
-            </a>
+            <span className='menu-item'>Numbers</span>
           </li>
+          <ul>
+            <li>
+              <a className='menu-item' href='/cardinal-numbers'>
+                Cardinal Numbers
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a className='menu-item' href='/ordinal-numbers'>
+                Ordinal Numbers
+              </a>
+            </li>
+          </ul>
         </ul>
       </div>
       <a className='menu-item' href='/writing'>
