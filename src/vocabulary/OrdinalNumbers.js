@@ -4,7 +4,7 @@ import { Table } from "react-bootstrap"
 const OrdinalNumbers = () => {
   return (
     <div>
-      <h2 className='title'>Cardinal Numbers </h2>
+      <h2 className='title'>Ordinal Numbers </h2>
       <h4 className='introduction'>Introduction</h4>
       <p className='introparag'>
         The ordinal numbers are used to show the order in which things come, or

@@ -40,7 +40,9 @@ export default (props) => {
         </a>
         <ul>
           <li>
-            <span className='menu-item'>Numbers</span>
+            <a className='menu-item' href='#'>
+              Numbers
+            </a>
           </li>
           <ul>
             <li>
