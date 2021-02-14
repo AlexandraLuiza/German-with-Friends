@@ -4,7 +4,6 @@ import Links from "./links/Links"
 import About from "./about/About"
 import Sidebar from "./sidebar/Sidebar"
 import Signup from "./login/Singnup"
-import { Container } from "react-bootstrap"
 import { AuthProvider } from "./context/AuthContext"
 import Dashboard from "./login/Dashboard"
 import Login from "./login/Login"
@@ -20,6 +19,7 @@ import "./App.css"
 import CardinalNumbers from "./vocabulary/CardinalNumbers"
 import OrdinalNumbers from "./vocabulary/OrdinalNumbers"
 import Time from "./vocabulary/Time"
+import Date from "./vocabulary/Date"
 
 function App() {
   return (
@@ -43,6 +43,7 @@ function App() {
             <Route path='/cardinal-numbers' component={CardinalNumbers} />
             <Route path='/ordinal-numbers' component={OrdinalNumbers} />
             <Route path='/time' component={Time} />
+            <Route path='/date' component={Date} />
           </Switch>
         </AuthProvider>
       </Router>
