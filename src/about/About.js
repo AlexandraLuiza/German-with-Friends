@@ -5,11 +5,11 @@ const about = () => {
   return (
     <div>
       <h2 className='about'>About Us</h2>
-      <p className='paragraph1'>
-        Welcome at German with
-        <div className='friends-pic'>
-          <img src='friends.png' alt='friends'></img>
-        </div>
+      <p className='paragraph'>
+        Welcome at German with friends
+        {/* <span>
+          <img className='friends-pic' src='friends.png' alt='friends'></img>
+        </span> */}
         .
       </p>
       <p className='paragraph'>
@@ -18,8 +18,7 @@ const about = () => {
         are a F.R.I.E.N.D.S. fan, you know the most important catchphrases.
       </p>
       <p className='paragraph'>
-        If you don't know them yet, let us show you how you can say them in
-        German.
+        Let us show you how you can say them in German.
       </p>
       <p className='paragraph'>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum

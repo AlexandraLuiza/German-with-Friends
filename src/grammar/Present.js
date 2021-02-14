@@ -19,7 +19,7 @@ const Present = () => {
         <h4 className='conjugation'>
           Conjugation of German Verbs in Present Tense
         </h4>
-        <p className='endingen'>
+        <p className='note'>
           To conjugate verbs in the German present tense, the infinitive ending
           <em>-en</em> is removed and add the following endings are added:
         </p>
@@ -28,7 +28,7 @@ const Present = () => {
             <tr>
               <th>Person</th>
               <th>Ending</th>
-              <th>Example</th>
+              <th>Example: lernen</th>
             </tr>
           </thead>
           <tbody>
@@ -191,7 +191,7 @@ const Present = () => {
             <p>Example: wandern – ich wandere, wir wandern, sie wandern</p>
             <p>
               In the case of <em>-eln</em>, the <em>e</em> from the word stem in
-              the 1st person singular is can be removed.
+              the 1<sup>st</sup> person singular is can be removed.
             </p>
             <p>Example: lächeln – ich läch(e)le, wir lächeln, sie lächeln</p>
           </li>

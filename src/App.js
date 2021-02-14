@@ -16,6 +16,7 @@ import Tenses from "./grammar/Tenses"
 import Present from "./grammar/Present"
 import Header from "./header/Header"
 import "./App.css"
+import { PresentPerfect } from "./grammar/PresentPerfect"
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
             <Route path='/quizes' component={Quiz} />
             <Route path='/present' component={Present} />
             <Route path='/home' component={Header} />
+            <Route path='/present-perfect' component={PresentPerfect} />
           </Switch>
         </AuthProvider>
       </Router>

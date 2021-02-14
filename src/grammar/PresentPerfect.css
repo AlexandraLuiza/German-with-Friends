@@ -14,9 +14,6 @@
   color: #00996f;
   font-weight: 500;
 }
-.introparag {
-  padding: 0px 25px 0px 25px;
-}
 
 .conjugation {
   margin-top: 2%;
@@ -24,25 +21,10 @@
   color: #00996f;
 }
 
-.note {
-  margin-bottom: 1.5%;
-  padding: 0px 25px 0px 25px;
+.beispiel {
+  font-weight: normal;
 }
 
-ul > li {
-  list-style-type: square;
-}
-
-.verbs {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  padding: 0px 25px 0px 25px;
-}
-
-.table-bordered {
-  border-bottom: 2px solid #dee2e6;
-}
-
-.exceptions {
-  padding: 0px 25px 0px 25px;
+strong {
+  padding-left: 25px;
 }

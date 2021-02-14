@@ -3,29 +3,32 @@
   justify-content: center;
   margin-top: 5%;
   color: #00996f;
+  font-family: "Montserrat", sans-serif;
 }
 
 .paragraph {
   margin: auto;
   justify-content: space-evenly;
   margin: 0 20px 0 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
-.paragraph1 {
-  margin: auto;
-  justify-content: space-evenly;
-  margin: 0 20px 0 20px;
-}
-
-/* @media (min-width: 700px) {
+@media (min-width: 700px) {
   .paragraph {
     justify-content: space-evenly;
     margin-left: 20px;
   }
-} */
+}
+
+/* .parag {
+  margin: auto;
+  justify-content: space-evenly;
+  margin: 0 20px 0 20px;
+  display: inline-flex;
+  font-family: "Montserrat", sans-serif;
+}
 
 .friends-pic {
   width: 100px;
-  height: 15px;
-  display: inline;
-}
+  float: right;
+} */
