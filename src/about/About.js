@@ -5,23 +5,21 @@ const about = () => {
   return (
     <div>
       <h2 className='about'>About Us</h2>
-      <p className='paragraph'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, sit,
-        nobis rem et ipsa debitis, similique adipisci cumque necessitatibus
-        dignissimos esse. Blanditiis itaque aspernatur perferendis quae nesciunt
-        sunt repudiandae id.
+      <p className='paragraph1'>
+        Welcome at German with
+        <div className='friends-pic'>
+          <img src='friends.png' alt='friends'></img>
+        </div>
+        .
       </p>
       <p className='paragraph'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
-        autem. Dolore eaque suscipit, impedit exercitationem architecto placeat
-        sapiente qui, ipsam incidunt dolorum mollitia nobis libero illo iste
-        harum, consequuntur omnis!
+        Here you can learn German while having fun. On our platform you can find
+        Grammar tips, Sentence Structure, but also some funny phrases. If you
+        are a F.R.I.E.N.D.S. fan, you know the most important catchphrases.
       </p>
       <p className='paragraph'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum esse quas
-        commodi maxime, dolore quam id praesentium ratione? Repellendus optio
-        explicabo quaerat animi doloribus minima deleniti perspiciatis iure
-        necessitatibus mollitia!
+        If you don't know them yet, let us show you how you can say them in
+        German.
       </p>
       <p className='paragraph'>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum

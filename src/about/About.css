@@ -11,9 +11,21 @@
   margin: 0 20px 0 20px;
 }
 
-@media (min-width: 700px) {
-  p {
+.paragraph1 {
+  margin: auto;
+  justify-content: space-evenly;
+  margin: 0 20px 0 20px;
+}
+
+/* @media (min-width: 700px) {
+  .paragraph {
     justify-content: space-evenly;
     margin-left: 20px;
   }
+} */
+
+.friends-pic {
+  width: 100px;
+  height: 15px;
+  display: inline;
 }
