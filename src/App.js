@@ -19,6 +19,7 @@ import { PresentPerfect } from "./grammar/PresentPerfect"
 import "./App.css"
 import CardinalNumbers from "./vocabulary/CardinalNumbers"
 import OrdinalNumbers from "./vocabulary/OrdinalNumbers"
+import Time from "./vocabulary/Time"
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
             <Route path='/present-perfect' component={PresentPerfect} />
             <Route path='/cardinal-numbers' component={CardinalNumbers} />
             <Route path='/ordinal-numbers' component={OrdinalNumbers} />
+            <Route path='/time' component={Time} />
           </Switch>
         </AuthProvider>
       </Router>

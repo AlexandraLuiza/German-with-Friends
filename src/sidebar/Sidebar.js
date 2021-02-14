@@ -59,6 +59,13 @@ export default (props) => {
             </li>
           </ul>
         </ul>
+        <ul>
+          <li>
+            <a className='menu-item' href='/time'>
+              Time
+            </a>
+          </li>
+        </ul>
       </div>
       <a className='menu-item' href='/writing'>
         <i className='fas fa-caret-right arrow'></i>
