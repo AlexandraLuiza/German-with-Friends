@@ -33,12 +33,19 @@ export default (props) => {
           </ul>
         </ul>
       </div>
-
-      <a className='menu-item' href='/vocabulary'>
-        <i className='fas fa-caret-right arrow'></i>
-        Vocabulary
-      </a>
-
+      <div>
+        <a className='menu-item' href='/vocabulary'>
+          <i className='fas fa-caret-right arrow'></i>
+          Vocabulary
+        </a>
+        <ul>
+          <li>
+            <a className='menu-item' href='/numbers'>
+              Numbers
+            </a>
+          </li>
+        </ul>
+      </div>
       <a className='menu-item' href='/writing'>
         <i className='fas fa-caret-right arrow'></i>
         Writing
