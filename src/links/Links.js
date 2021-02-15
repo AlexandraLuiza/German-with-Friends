@@ -19,6 +19,9 @@ function Navigation() {
                 <Nav.Link href='/login' className='navigation'>
                   Log In/Sign Up
                 </Nav.Link>
+                <Nav.Link href='/contact' className='navigation'>
+                  Contact
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

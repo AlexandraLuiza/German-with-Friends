@@ -21,6 +21,7 @@ import OrdinalNumbers from "./vocabulary/OrdinalNumbers"
 import Time from "./vocabulary/Time"
 import Date from "./vocabulary/Date"
 import PartsOfTheBody from "./vocabulary/PartsOfTheBody"
+import ContactMe from "./ContactMe"
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
             <Route path='/time' component={Time} />
             <Route path='/date' component={Date} />
             <Route path='/body' component={PartsOfTheBody} />
+            <Route path='/contact' component={ContactMe} />
           </Switch>
         </AuthProvider>
       </Router>
