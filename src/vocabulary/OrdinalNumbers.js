@@ -17,7 +17,7 @@ const OrdinalNumbers = () => {
       <p className='introparag'>
         <em>Example: 1. Oktober 2011</em>
       </p>
-      <Table striped bordered hover size='sm'>
+      <Table bordered size='sm'>
         <thead>
           <tr>
             <th>Number</th>

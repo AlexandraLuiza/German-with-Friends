@@ -20,6 +20,7 @@ import CardinalNumbers from "./vocabulary/CardinalNumbers"
 import OrdinalNumbers from "./vocabulary/OrdinalNumbers"
 import Time from "./vocabulary/Time"
 import Date from "./vocabulary/Date"
+import PartsOfTheBody from "./vocabulary/PartsOfTheBody"
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
             <Route path='/ordinal-numbers' component={OrdinalNumbers} />
             <Route path='/time' component={Time} />
             <Route path='/date' component={Date} />
+            <Route path='/body' component={PartsOfTheBody} />
           </Switch>
         </AuthProvider>
       </Router>

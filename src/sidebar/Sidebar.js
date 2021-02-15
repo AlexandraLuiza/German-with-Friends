@@ -73,6 +73,28 @@ export default (props) => {
             </a>
           </li>
         </ul>
+        <ul>
+          <li>
+            <a className='menu-item' href='#'>
+              Idioms
+            </a>
+          </li>
+          <ul>
+            <li>
+              <a className='menu-item' href='/body'>
+                Parts of the body
+              </a>
+            </li>
+            <ul>
+              <li>
+                <a className='menu-item' href='/body'>
+                  Kopf, Hand, Rücken (Head, Hand, Back)
+                </a>
+              </li>
+            </ul>
+          </ul>
+        </ul>
+        <ul></ul>
       </div>
       <a className='menu-item' href='/writing'>
         <i className='fas fa-caret-right arrow'></i>

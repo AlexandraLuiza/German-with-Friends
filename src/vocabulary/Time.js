@@ -14,7 +14,7 @@ const Time = () => {
       <h4 className='introduction'>Telling the Time</h4>
       <div className='row'>
         <div className='col-md-6'>
-          <Table striped bordered hover>
+          <Table bordered>
             <thead>
               <tr>
                 <th>Time</th>

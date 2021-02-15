@@ -11,7 +11,7 @@ const Numbers = () => {
         much of something there is.
       </p>
       <h4 className='introduction'>Writing the cardinal numbers</h4>
-      <Table striped bordered hover size='sm'>
+      <Table bordered size='sm'>
         <thead>
           <tr>
             <th>Number</th>
