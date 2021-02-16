@@ -4,7 +4,7 @@ import "./Idioms.css"
 const Idioms = () => {
   return (
     <div>
-      <h2 className='title'>Idioms</h2>
+      <h2 className='title'>Idioms (Redewendungen)</h2>
       <h4 className='introduction'>Introduction</h4>
       <p className='parag'>
         Idioms (also known as expressions or phrases) are fixed expressions that

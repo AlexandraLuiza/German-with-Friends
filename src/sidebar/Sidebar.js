@@ -94,7 +94,20 @@ export default (props) => {
             </ul>
           </ul>
         </ul>
-        <ul></ul>
+        <ul>
+          <li>
+            <a className='menu-item' href='#'>
+              Seasons
+            </a>
+          </li>
+          <ul>
+            <li>
+              <a className='menu-item' href='/spring'>
+                Spring(Frühling)
+              </a>
+            </li>
+          </ul>
+        </ul>
       </div>
       <a className='menu-item' href='/writing'>
         <i className='fas fa-caret-right arrow'></i>
