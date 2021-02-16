@@ -22,6 +22,7 @@ import Time from "./vocabulary/Time"
 import Date from "./vocabulary/Date"
 import PartsOfTheBody from "./vocabulary/PartsOfTheBody"
 import ContactMe from "./ContactMe"
+import Idioms from "./Idioms"
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
             <Route path='/date' component={Date} />
             <Route path='/body' component={PartsOfTheBody} />
             <Route path='/contact' component={ContactMe} />
+            <Route path='/idioms' component={Idioms} />
           </Switch>
         </AuthProvider>
       </Router>

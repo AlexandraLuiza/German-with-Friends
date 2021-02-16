@@ -1,0 +1,21 @@
+.idioms {
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}

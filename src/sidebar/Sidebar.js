@@ -75,13 +75,13 @@ export default (props) => {
         </ul>
         <ul>
           <li>
-            <a className='menu-item' href='#'>
+            <a className='menu-item' href='/idioms'>
               Idioms
             </a>
           </li>
           <ul>
             <li>
-              <a className='menu-item' href='/body'>
+              <a className='menu-item' href='#'>
                 Parts of the body
               </a>
             </li>
