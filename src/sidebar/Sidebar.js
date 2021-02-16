@@ -123,11 +123,26 @@ export default (props) => {
         <i className='fas fa-caret-right arrow'></i>
         Speaking
       </a>
-
-      <a className='menu-item' href='/exercices'>
-        <i className='fas fa-caret-right arrow'></i>
-        Exercices
-      </a>
+      <div>
+        <a className='menu-item' href='/exercices'>
+          <i className='fas fa-caret-right arrow'></i>
+          Exercises
+        </a>
+        <ul>
+          <li>
+            <a className='menu-item' href='#'>
+              Grammar
+            </a>
+          </li>
+          <ul>
+            <li>
+              <a className='menu-item' href='/exercises-grammar'>
+                Verbs
+              </a>
+            </li>
+          </ul>
+        </ul>
+      </div>
 
       <a className='menu-item' href='/quizes'>
         <i className='fas fa-caret-right arrow'></i>

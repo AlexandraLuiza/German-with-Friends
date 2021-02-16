@@ -24,6 +24,7 @@ import PartsOfTheBody from "./vocabulary/PartsOfTheBody"
 import ContactMe from "./ContactMe"
 import Idioms from "./Idioms"
 import Spring from "./vocabulary/Spring"
+import Verbs from "./exercises/Verbs"
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
             <Route path='/contact' component={ContactMe} />
             <Route path='/idioms' component={Idioms} />
             <Route path='/spring' component={Spring} />
+            <Route path='/exercises-grammar' component={Verbs} />
           </Switch>
         </AuthProvider>
       </Router>

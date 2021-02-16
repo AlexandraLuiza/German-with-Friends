@@ -1,0 +1,23 @@
+.text {
+  outline: none;
+  border: none;
+  border-bottom: solid;
+}
+
+.phrases {
+  outline: none;
+  border: none;
+  border-bottom: solid;
+  width: 20%;
+}
+
+.check {
+  color: #ffffff;
+  background-color: #00805d;
+  border-radius: 10px;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  border: 5px solid #00664a;
+}

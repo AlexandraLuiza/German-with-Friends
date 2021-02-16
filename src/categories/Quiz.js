@@ -61,7 +61,7 @@ export default function Quiz() {
         <div className='score-section'>
           You scored {score} out of {questions.length}
           <div>
-            <button className='restart'>Restart</button>
+            <button className='btn'>Restart</button>
           </div>
         </div>
       ) : (
@@ -77,6 +77,7 @@ export default function Quiz() {
           <div className='answer-section'>
             {questions[currentQuestion].answerOptions.map((answerOption) => (
               <button
+                className='btn'
                 onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}
               >
                 {answerOption.answerText}
@@ -84,7 +85,7 @@ export default function Quiz() {
             ))}
           </div>
           <div>
-            <button className='restart'>Restart</button>
+            <button className='btn'>Restart</button>
           </div>
         </>
       )}
