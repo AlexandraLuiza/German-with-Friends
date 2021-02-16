@@ -70,7 +70,11 @@ const Verbs = () => {
           <input className='text' type='text'></input> ich nach London."
         </p>
         <div>
-          <button className='check'>Check answers</button>
+          <button className='check'>
+            <span>
+              <i class='fa fa-check fa-fw'></i>Check answers
+            </span>
+          </button>
         </div>
       </div>
     </>

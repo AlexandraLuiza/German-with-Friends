@@ -12,6 +12,7 @@
 }
 
 .check {
+  display: inline-block;
   color: #ffffff;
   background-color: #00805d;
   border-radius: 10px;
@@ -20,4 +21,22 @@
   align-items: center;
   cursor: pointer;
   border: 5px solid #00664a;
+  text-decoration: none;
+  outline: none;
+  box-shadow: 0 9px #004d38;
+  transform: translateX(4px);
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+.check:hover {
+  background-color: #00996f;
+}
+
+.check:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #004d38;
+  transform: translateY(4px);
+  outline: none;
+  text-decoration: none;
 }

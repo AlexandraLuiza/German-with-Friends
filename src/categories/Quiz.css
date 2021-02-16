@@ -67,6 +67,12 @@
   cursor: pointer;
 }
 
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #004d38;
+  transform: translateY(4px);
+}
+
 .correct {
   background-color: #2f922f;
 }
@@ -75,7 +81,7 @@
   background-color: #ff3333;
 }
 
-button:focus {
+.btn:focus {
   outline: none;
 }
 
