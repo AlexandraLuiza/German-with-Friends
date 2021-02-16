@@ -42,6 +42,12 @@ export default function Quiz() {
   const [showScore, setShowScore] = useState(false)
   const [score, setScore] = useState(0)
 
+  const handleReset = () => {
+    setScore(0)
+    setShowScore(false)
+    setCurrentQuestion(0)
+  }
+
   const handleAnswerOptionClick = (isCorrect) => {
     if (isCorrect) {
       setScore(score + 1)
@@ -61,7 +67,9 @@ export default function Quiz() {
         <div className='score-section'>
           You scored {score} out of {questions.length}
           <div>
-            <button className='btn'>Restart</button>
+            <button className='btn' onClick={() => handleReset()}>
+              Restart
+            </button>
           </div>
         </div>
       ) : (
@@ -78,14 +86,12 @@ export default function Quiz() {
             {questions[currentQuestion].answerOptions.map((answerOption) => (
               <button
                 className='btn'
+                key={answerOption.answerText}
                 onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}
               >
                 {answerOption.answerText}
               </button>
             ))}
-          </div>
-          <div>
-            <button className='btn'>Restart</button>
           </div>
         </>
       )}

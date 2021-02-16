@@ -28,7 +28,7 @@ export default function Login() {
 
   return (
     <>
-      <div className='login-form'>
+      <div className='col-md-4 mt-5 ml-auto mr-auto'>
         <Card>
           <Card.Body>
             <h2 className='text-center mb-4 title'>Log In</h2>

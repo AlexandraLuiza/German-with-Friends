@@ -46,7 +46,7 @@ const Verbs = () => {
           <input className='phrases' type='text'></input>
         </p>
         <p className='introparag'>
-          1. morgen/es/besser/werden
+          6. morgen/es/besser/werden
           <input className='phrases' type='text'></input>
         </p>
       </div>

@@ -4,8 +4,8 @@ import "./ContactMe.css"
 
 const ContactMe = () => {
   return (
-    <div className='container row mt-5'>
-      <div className='col-md-6 mt-4'>
+    <div className='container mt-5'>
+      <div className='col-md-6 mt-5 ml-auto mr-auto'>
         <Form>
           <Form.Row>
             <Form.Group as={Col} controlId='formGridtext'>
@@ -28,7 +28,7 @@ const ContactMe = () => {
               placeholder='Enter your message here'
             ></textarea>
           </Form.Group>
-          <Button variant='primary' type='submit'>
+          <Button variant='success' type='submit'>
             Submit
           </Button>
         </Form>
