@@ -25,31 +25,74 @@ const Verbs = () => {
       </div>
       <div>
         <p className='introparag'>Ü2. Schreiben Sie die Sätze. </p>
-        <p className='introparag'>
-          1. Issabela/Schüllerin/sein{" "}
-          <input className='phrases' type='text'></input>
-        </p>
-        <p className='introparag'>
-          2. sie/am 1.April/sieben Jahre alt/werden{" "}
-          <input className='phrases' type='text'></input>
-        </p>
-        <p className='introparag'>
-          3. Ich/am 3.November/Geburstag/haben{" "}
-          <input className='phrases' type='text'></input>
-        </p>
-        <p className='introparag'>
-          4. dann/ich/sieben Jahre alt/ werden
-          <input className='phrases' type='text'></input>
-        </p>
-        <p className='introparag'>
-          5. heute/das Wetter/schlecht/sein
-          <input className='phrases' type='text'></input>
-        </p>
-        <p className='introparag'>
-          6. morgen/es/besser/werden
-          <input className='phrases' type='text'></input>
-        </p>
+        <div class='form-group row'>
+          <label className='col-sm-6 col-form-label introparag'>
+            1. Issabela/Schüllerin/sein
+          </label>
+          <div className='col-sm-6'>
+            <input
+              type='text'
+              className='form-control form-control-sm phrases'
+            />
+          </div>
+        </div>
+        <div class='form-group row'>
+          <label className='col-sm-6 col-form-label introparag'>
+            2. sie/am 1.April/sieben Jahre alt/werden
+          </label>
+          <div className='col-sm-6'>
+            <input
+              type='text'
+              className='form-control form-control-sm phrases'
+            />
+          </div>
+        </div>
+        <div class='form-group row'>
+          <label className='col-sm-6 col-form-label introparag'>
+            3. Ich/am 3.November/Geburstag/haben
+          </label>
+          <div className='col-sm-6'>
+            <input
+              type='text'
+              className='form-control form-control-sm phrases'
+            />
+          </div>
+        </div>
+        <div class='form-group row'>
+          <label className='col-sm-6 col-form-label introparag'>
+            4. dann/ich/sieben Jahre alt/ werden
+          </label>
+          <div className='col-sm-6'>
+            <input
+              type='text'
+              className='form-control form-control-sm phrases'
+            />
+          </div>
+        </div>
+        <div class='form-group row'>
+          <label className='col-sm-6 col-form-label introparag'>
+            5. heute/das Wetter/schlecht/sein
+          </label>
+          <div className='col-sm-6'>
+            <input
+              type='text'
+              className='form-control form-control-sm phrases'
+            />
+          </div>
+        </div>
+        <div class='form-group row'>
+          <label className='col-sm-6 col-form-label introparag'>
+            6. morgen/es/besser/werden
+          </label>
+          <div className='col-sm-6'>
+            <input
+              type='text'
+              className='form-control form-control-sm phrases'
+            />
+          </div>
+        </div>
       </div>
+
       <div>
         <p className='introparag'>
           Ü3. Was macht was? Unterstreichen Sie das Subject und ergänzen Sie die

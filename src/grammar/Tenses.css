@@ -23,7 +23,7 @@ span {
   font-weight: bold;
 }
 
-ul li {
+.bullets {
   list-style-type: none;
 }
 

@@ -6,29 +6,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.paragraph {
-  margin: auto;
-  justify-content: space-evenly;
-  margin: 0 20px 0 20px;
-  font-family: "Montserrat", sans-serif;
+.languages {
+  opacity: 0.8;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-
-@media (min-width: 700px) {
-  .paragraph {
-    justify-content: space-evenly;
-    margin-left: 20px;
-  }
-}
-
-/* .parag {
-  margin: auto;
-  justify-content: space-evenly;
-  margin: 0 20px 0 20px;
-  display: inline-flex;
-  font-family: "Montserrat", sans-serif;
-}
-
-.friends-pic {
-  width: 100px;
-  float: right;
-} */

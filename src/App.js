@@ -25,6 +25,9 @@ import ContactMe from "./ContactMe"
 import Idioms from "./Idioms"
 import Spring from "./vocabulary/Spring"
 import Verbs from "./exercises/Verbs"
+import TipsAndTricks from "./writting/TipsAndTricks"
+import SpeakingTips from "./speaking/SpeakingTips"
+import ListeningTips from "./listening/ListeningTips"
 
 function App() {
   return (
@@ -54,6 +57,9 @@ function App() {
             <Route path='/idioms' component={Idioms} />
             <Route path='/spring' component={Spring} />
             <Route path='/exercises-grammar' component={Verbs} />
+            <Route path='/tips' component={TipsAndTricks} />
+            <Route path='/speaking-tips' component={SpeakingTips} />
+            <Route path='/listening-tips' component={ListeningTips} />
           </Switch>
         </AuthProvider>
       </Router>

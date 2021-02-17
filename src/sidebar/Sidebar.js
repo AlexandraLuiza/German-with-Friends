@@ -81,17 +81,10 @@ export default (props) => {
           </li>
           <ul>
             <li>
-              <a className='menu-item categ' href='#'>
+              <a className='menu-item categ' href='/body'>
                 Parts of the body
               </a>
             </li>
-            <ul>
-              <li>
-                <a className='menu-item categ' href='/body'>
-                  Kopf, Hand, Rücken (Head, Hand, Back)
-                </a>
-              </li>
-            </ul>
           </ul>
         </ul>
         <ul>
@@ -109,20 +102,45 @@ export default (props) => {
           </ul>
         </ul>
       </div>
-      <a className='menu-item categ' href='/writing'>
-        <i className='fas fa-caret-right arrow'></i>
-        Writing
-      </a>
-
-      <a className='menu-item categ' href='/listening'>
-        <i className='fas fa-caret-right arrow'></i>
-        Listening
-      </a>
-
-      <a className='menu-item categ' href='/speaking'>
-        <i className='fas fa-caret-right arrow'></i>
-        Speaking
-      </a>
+      <div>
+        <a className='menu-item categ' href='/#'>
+          <i className='fas fa-caret-right arrow'></i>
+          Writing
+        </a>
+        <ul>
+          <li>
+            <a className='menu-item categ' href='/tips'>
+              Tips&Tricks
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <a className='menu-item categ' href='/#'>
+          <i className='fas fa-caret-right arrow'></i>
+          Listening
+        </a>
+        <ul>
+          <li>
+            <a className='menu-item categ' href='/listening-tips'>
+              Tips&Tricks
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <a className='menu-item categ' href='/#'>
+          <i className='fas fa-caret-right arrow'></i>
+          Speaking
+        </a>
+        <ul>
+          <li>
+            <a className='menu-item categ' href='/speaking-tips'>
+              Tips&Tricks
+            </a>
+          </li>
+        </ul>
+      </div>
       <div>
         <a className='menu-item categ' href='/exercices'>
           <i className='fas fa-caret-right arrow'></i>

@@ -145,7 +145,7 @@ const Present = () => {
       </div>
       <div className='exceptions'>
         <h4>Exceptions</h4>
-        <ul>
+        <ul className='bullets'>
           <li>
             If the word stem ends in <em>d/t</em>, an <em>e</em> is added before
             the endings <em>-st</em> and <em>-t</em>. This doesn’t happen when
@@ -156,7 +156,7 @@ const Present = () => {
             </p>
           </li>
         </ul>
-        <ul>
+        <ul className='bullets'>
           <li>
             If the word stem ends in <em>s/ß/x/z</em>, the <em>s</em> is removed
             in the 2<sup>nd</sup> person singular ending.
@@ -165,7 +165,7 @@ const Present = () => {
             </p>
           </li>
         </ul>
-        <ul>
+        <ul className='bullets'>
           <li>
             If the word stem ends in <em>ie</em>, the <em>e</em> is removed from
             the ending.
@@ -175,7 +175,7 @@ const Present = () => {
             </p>
           </li>
         </ul>
-        <ul>
+        <ul className='bullets'>
           <li>
             The word stem changes in some strong verbs.
             <p>
@@ -184,7 +184,7 @@ const Present = () => {
             </p>
           </li>
         </ul>
-        <ul>
+        <ul className='bullets'>
           <li>
             If the infinitive ends in <em>-eln/-ern</em>, the <em>e</em> is
             removed in the ending.

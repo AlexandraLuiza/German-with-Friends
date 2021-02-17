@@ -5,33 +5,27 @@ const about = () => {
   return (
     <div>
       <h2 className='about'>About Us</h2>
-      <p className='paragraph'>
-        Welcome at German with friends
-        {/* <span>
-          <img className='friends-pic' src='friends.png' alt='friends'></img>
-        </span> */}
-        .
+
+      <p className='introparag'>Welcome at German with friends.</p>
+
+      <p className='introparag'>
+        I am Luiza and I am a philologist who graduated from Foreign Language
+        University. My love for German Language determated me to create this
+        site, where you can learn German while having fun. Here you can find
+        anything about German Grammar, Speaking skills and tips for you writting
+        essays.
       </p>
-      <p className='paragraph'>
-        Here you can learn German while having fun. On our platform you can find
-        Grammar tips, Sentence Structure, but also some funny phrases. If you
-        are a F.R.I.E.N.D.S. fan, you know the most important catchphrases.
+      <p className='introparag'>
+        You will have the opportunity to meet new people and also to help others
+        improving their language skills.
       </p>
-      <p className='paragraph'>
-        Let us show you how you can say them in German.
+      <p className='introparag'>
+        For any question, please send me an e-mail using the contact form or use
+        the chatbot for Grammar questions.
       </p>
-      <p className='paragraph'>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
-        exercitationem doloribus eaque, temporibus architecto minus molestiae
-        dignissimos in, laborum commodi quas optio voluptatibus dolore. Omnis
-        quos magnam officia in quidem.
-      </p>
-      <p className='paragraph'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ad
-        corrupti, quas expedita aliquid sit debitis veniam, cupiditate mollitia
-        ut qui corporis! Dolorem delectus quo consectetur corrupti officia nobis
-        expedita?
-      </p>
+      <div>
+        <img className='languages' src='languages.jpeg' alt='languages'></img>
+      </div>
     </div>
   )
 }
