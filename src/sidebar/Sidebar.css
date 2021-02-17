@@ -76,11 +76,11 @@ body {
   outline: none;
 }
 
-a:hover {
+.categ:hover {
   color: #fff;
 }
 
-div a {
+.categ {
   text-decoration: none;
   color: #fff;
 }

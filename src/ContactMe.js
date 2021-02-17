@@ -28,7 +28,7 @@ const ContactMe = () => {
               placeholder='Enter your message here'
             ></textarea>
           </Form.Group>
-          <Button variant='success' type='submit'>
+          <Button className='btn-submit' variant='success' type='submit'>
             Submit
           </Button>
         </Form>

@@ -7,26 +7,26 @@ export default (props) => {
     <Menu>
       <h2 className='categories'>Categories</h2>
       <div>
-        <a className='menu-item' href='#'>
+        <a className='menu-item categ' href='#'>
           <i className='fas fa-caret-right arrow'></i>
           Grammar
         </a>
         <ul>
           <li>
-            <a className='menu-item' href='/tenses'>
+            <a className='menu-item categ' href='/tenses'>
               Tenses Overview
             </a>
           </li>
           <ul>
             <li>
-              <a className='menu-item' href='/present'>
+              <a className='menu-item categ' href='/present'>
                 Present Tense
               </a>
             </li>
           </ul>
           <ul>
             <li>
-              <a className='menu-item' href='/present-perfect'>
+              <a className='menu-item categ' href='/present-perfect'>
                 Present Perfect
               </a>
             </li>
@@ -34,26 +34,26 @@ export default (props) => {
         </ul>
       </div>
       <div>
-        <a className='menu-item' href='/vocabulary'>
+        <a className='menu-item categ' href='/vocabulary'>
           <i className='fas fa-caret-right arrow'></i>
           Vocabulary
         </a>
         <ul>
           <li>
-            <a className='menu-item' href='#'>
+            <a className='menu-item categ' href='#'>
               Numbers
             </a>
           </li>
           <ul>
             <li>
-              <a className='menu-item' href='/cardinal-numbers'>
+              <a className='menu-item categ' href='/cardinal-numbers'>
                 Cardinal Numbers
               </a>
             </li>
           </ul>
           <ul>
             <li>
-              <a className='menu-item' href='/ordinal-numbers'>
+              <a className='menu-item categ' href='/ordinal-numbers'>
                 Ordinal Numbers
               </a>
             </li>
@@ -61,33 +61,33 @@ export default (props) => {
         </ul>
         <ul>
           <li>
-            <a className='menu-item' href='/time'>
+            <a className='menu-item categ' href='/time'>
               Time
             </a>
           </li>
         </ul>
         <ul>
           <li>
-            <a className='menu-item' href='/date'>
+            <a className='menu-item categ' href='/date'>
               Date
             </a>
           </li>
         </ul>
         <ul>
           <li>
-            <a className='menu-item' href='/idioms'>
+            <a className='menu-item categ' href='/idioms'>
               Idioms
             </a>
           </li>
           <ul>
             <li>
-              <a className='menu-item' href='#'>
+              <a className='menu-item categ' href='#'>
                 Parts of the body
               </a>
             </li>
             <ul>
               <li>
-                <a className='menu-item' href='/body'>
+                <a className='menu-item categ' href='/body'>
                   Kopf, Hand, Rücken (Head, Hand, Back)
                 </a>
               </li>
@@ -96,47 +96,47 @@ export default (props) => {
         </ul>
         <ul>
           <li>
-            <a className='menu-item' href='#'>
+            <a className='menu-item categ' href='#'>
               Seasons
             </a>
           </li>
           <ul>
             <li>
-              <a className='menu-item' href='/spring'>
+              <a className='menu-item categ' href='/spring'>
                 Spring(Frühling)
               </a>
             </li>
           </ul>
         </ul>
       </div>
-      <a className='menu-item' href='/writing'>
+      <a className='menu-item categ' href='/writing'>
         <i className='fas fa-caret-right arrow'></i>
         Writing
       </a>
 
-      <a className='menu-item' href='/listening'>
+      <a className='menu-item categ' href='/listening'>
         <i className='fas fa-caret-right arrow'></i>
         Listening
       </a>
 
-      <a className='menu-item' href='/speaking'>
+      <a className='menu-item categ' href='/speaking'>
         <i className='fas fa-caret-right arrow'></i>
         Speaking
       </a>
       <div>
-        <a className='menu-item' href='/exercices'>
+        <a className='menu-item categ' href='/exercices'>
           <i className='fas fa-caret-right arrow'></i>
           Exercises
         </a>
         <ul>
           <li>
-            <a className='menu-item' href='#'>
+            <a className='menu-item categ' href='#'>
               Grammar
             </a>
           </li>
           <ul>
             <li>
-              <a className='menu-item' href='/exercises-grammar'>
+              <a className='menu-item categ' href='/exercises-grammar'>
                 Verbs
               </a>
             </li>
@@ -144,7 +144,7 @@ export default (props) => {
         </ul>
       </div>
 
-      <a className='menu-item' href='/quizes'>
+      <a className='menu-item categ' href='/quizes'>
         <i className='fas fa-caret-right arrow'></i>
         Quizes
       </a>
