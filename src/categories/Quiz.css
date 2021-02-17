@@ -73,14 +73,6 @@
   transform: translateY(4px);
 }
 
-.correct {
-  background-color: #2f922f;
-}
-
-.incorrect {
-  background-color: #ff3333;
-}
-
 .btn:focus {
   outline: none;
 }

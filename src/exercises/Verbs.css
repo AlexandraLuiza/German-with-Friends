@@ -39,3 +39,10 @@
   transform: translateY(4px);
   outline: none;
 }
+
+.checkMark {
+  color: lightgreen;
+}
+.incorrect {
+  color: #ff3333;
+}
