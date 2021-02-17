@@ -19,7 +19,6 @@
   height: 100%;
   margin-top: 5%;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
 }
 .navigation {
   color: #fff !important;
@@ -28,9 +27,5 @@
 .navbar {
   padding-top: 0%;
   background-color: #00996f;
-}
-
-div a {
-  text-decoration: none;
-  color: #000;
+  font-family: "Montserrat", sans-serif;
 }

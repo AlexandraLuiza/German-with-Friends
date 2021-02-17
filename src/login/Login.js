@@ -52,7 +52,7 @@ export default function Login() {
           </Card.Body>
         </Card>
       </div>
-      <div className='w-50 text-center mt-2'>
+      <div className='w-100 text-center mt-2'>
         Need an account? <Link to='/signup'>Sign Up</Link>
       </div>
     </>
