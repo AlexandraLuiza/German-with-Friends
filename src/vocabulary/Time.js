@@ -67,7 +67,7 @@ const Time = () => {
           </Table>
         </div>
         <div className='col-md-5'>
-          <img className='' src='time.png' alt='time'></img>
+          <img src='time.png' alt='time'></img>
         </div>
       </div>
     </div>

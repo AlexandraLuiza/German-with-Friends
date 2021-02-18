@@ -6,10 +6,7 @@ const about = () => {
     <div>
       <h2 className='about'>About Us</h2>
 
-      <p className='introparag'>
-        Welcome at German with{" "}
-        <img className='friends1' src='friends.png' alt='friends'></img>.
-      </p>
+      <p className='introparag'>Welcome at German with Friends.</p>
 
       <p className='introparag'>
         I am Luiza and I am a philologist who graduated from Foreign Language

@@ -1,4 +1,4 @@
-h1 {
+.header {
   left: 0;
   line-height: 200px;
   margin-top: -100px;
@@ -9,7 +9,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
-h5 {
+.subhead {
   left: 0;
   line-height: 200px;
   margin-top: -50px;
@@ -20,15 +20,11 @@ h5 {
   font-family: "Montserrat", sans-serif;
 }
 
-h1 > span {
+.header > span {
   color: #00996f;
 }
 
-h5 > span {
+.subhead > span {
   font-weight: bold;
   color: #00996f;
-}
-
-.friends {
-  width: 230px;
 }

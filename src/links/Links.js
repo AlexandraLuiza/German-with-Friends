@@ -10,14 +10,17 @@ function Navigation() {
           <Navbar fixed='top' className='navbar'>
             <Navbar.Collapse id='basic-navbar-nav'>
               <Nav className='ml-auto '>
+                <Nav.Link href='/home' className='navigation'>
+                  <i class='fas fa-home'></i> Home
+                </Nav.Link>
                 <Nav.Link href='/about' className='navigation'>
-                  About Us
+                  <i class='fas fa-address-card'></i> About Us
                 </Nav.Link>
                 <Nav.Link href='/login' className='navigation'>
-                  Log In
+                  <i class='fas fa-sign-in-alt'></i> Log In
                 </Nav.Link>
                 <Nav.Link href='/contact' className='navigation'>
-                  Contact
+                  <i class='fas fa-id-card-alt'></i> Contact
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>

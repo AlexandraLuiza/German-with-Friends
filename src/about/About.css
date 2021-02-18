@@ -4,6 +4,7 @@
   margin-top: 5%;
   color: #00996f;
   font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
 .languages {
@@ -12,8 +13,4 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-.friends1 {
-  width: 200px;
 }
