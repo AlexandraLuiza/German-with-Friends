@@ -3,7 +3,7 @@ import "./Header.css"
 
 const Header = () => {
   return (
-    <div className='head-wrapper container-fluid'>
+    <div>
       <h1 className='header'>
         <span>German</span> with Friends
       </h1>
