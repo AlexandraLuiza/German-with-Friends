@@ -5,7 +5,8 @@ const Header = () => {
   return (
     <div>
       <h1>
-        <span>German</span> with Friends
+        <span>German</span> with{" "}
+        <img className='friends' src='friends.png' alt='friends'></img>
       </h1>
       <h5>
         Have <span>Fun</span> while learning

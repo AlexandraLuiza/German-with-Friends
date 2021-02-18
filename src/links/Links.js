@@ -13,11 +13,8 @@ function Navigation() {
                 <Nav.Link href='/about' className='navigation'>
                   About Us
                 </Nav.Link>
-                <Nav.Link href='#' className='navigation'>
-                  En/Ro
-                </Nav.Link>
                 <Nav.Link href='/login' className='navigation'>
-                  Log In/Sign Up
+                  Log In
                 </Nav.Link>
                 <Nav.Link href='/contact' className='navigation'>
                   Contact
