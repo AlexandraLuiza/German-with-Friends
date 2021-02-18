@@ -90,7 +90,7 @@ export default function Verbs() {
           ) : quizStatus.q2 ? (
             <i className='fas fa-check checkMark'></i>
           ) : (
-            <span className='incorrect'>{correctAnswers.q1}</span>
+            <span className='incorrect'>{correctAnswers.q2}</span>
           )}{" "}
           sieben Jahre alt. Ich{" "}
           <input
@@ -104,7 +104,7 @@ export default function Verbs() {
           ) : quizStatus.q3 ? (
             <i className='fas fa-check checkMark'></i>
           ) : (
-            <span className='incorrect'>{correctAnswers.q1}</span>
+            <span className='incorrect'>{correctAnswers.q3}</span>
           )}{" "}
           eine Schwester. Sie{" "}
           <input
@@ -118,7 +118,7 @@ export default function Verbs() {
           ) : quizStatus.q4 ? (
             <i className='fas fa-check checkMark'></i>
           ) : (
-            <span className='incorrect'>{correctAnswers.q1}</span>
+            <span className='incorrect'>{correctAnswers.q4}</span>
           )}{" "}
           Fußballerina. Wir{" "}
           <input
@@ -132,7 +132,7 @@ export default function Verbs() {
           ) : quizStatus.q5 ? (
             <i className='fas fa-check checkMark'></i>
           ) : (
-            <span className='incorrect'>{correctAnswers.q1}</span>
+            <span className='incorrect'>{correctAnswers.q5}</span>
           )}{" "}
           auch zwei Brüder, Leo und Max. Sie{" "}
           <input
@@ -146,7 +146,7 @@ export default function Verbs() {
           ) : quizStatus.q6 ? (
             <i className='fas fa-check checkMark'></i>
           ) : (
-            <span className='incorrect'>{correctAnswers.q1}</span>
+            <span className='incorrect'>{correctAnswers.q6}</span>
           )}{" "}
           noch klein, sie{" "}
           <input
@@ -160,7 +160,7 @@ export default function Verbs() {
           ) : quizStatus.q7 ? (
             <i className='fas fa-check checkMark'></i>
           ) : (
-            <span className='incorrect'>{correctAnswers.q1}</span>
+            <span className='incorrect'>{correctAnswers.q7}</span>
           )}{" "}
           erst für Jahre alt. Und das{" "}
           <input
@@ -174,7 +174,7 @@ export default function Verbs() {
           ) : quizStatus.q8 ? (
             <i className='fas fa-check checkMark'></i>
           ) : (
-            <span className='incorrect'>{correctAnswers.q1}</span>
+            <span className='incorrect'>{correctAnswers.q8}</span>
           )}{" "}
           ist Dora. Wir{" "}
           <input
@@ -188,7 +188,7 @@ export default function Verbs() {
           ) : quizStatus.q9 ? (
             <i className='fas fa-check checkMark'></i>
           ) : (
-            <span className='incorrect'>{correctAnswers.q1}</span>
+            <span className='incorrect'>{correctAnswers.q9}</span>
           )}{" "}
           gute Freundinnen. Wir{" "}
           <input
@@ -202,7 +202,7 @@ export default function Verbs() {
           ) : quizStatus.q10 ? (
             <i className='fas fa-check checkMark'></i>
           ) : (
-            <span className='incorrect'>{correctAnswers.q1}</span>
+            <span className='incorrect'>{correctAnswers.q10}</span>
           )}{" "}
           viele Hobbys.
         </p>
@@ -225,7 +225,7 @@ export default function Verbs() {
             ) : quizStatus.q11 ? (
               <i className='fas fa-check checkMark'></i>
             ) : (
-              <span className='incorrect'>{correctAnswers.q1}</span>
+              <span className='incorrect'>{correctAnswers.q11}</span>
             )}
           </div>
         </div>
@@ -245,7 +245,7 @@ export default function Verbs() {
             ) : quizStatus.q12 ? (
               <i className='fas fa-check checkMark'></i>
             ) : (
-              <span className='incorrect'>{correctAnswers.q1}</span>
+              <span className='incorrect'>{correctAnswers.q12}</span>
             )}
           </div>
         </div>
@@ -265,7 +265,7 @@ export default function Verbs() {
             ) : quizStatus.q13 ? (
               <i className='fas fa-check checkMark'></i>
             ) : (
-              <span className='incorrect'>{correctAnswers.q1}</span>
+              <span className='incorrect'>{correctAnswers.q13}</span>
             )}
           </div>
         </div>
@@ -285,7 +285,7 @@ export default function Verbs() {
             ) : quizStatus.q14 ? (
               <i className='fas fa-check checkMark'></i>
             ) : (
-              <span className='incorrect'>{correctAnswers.q1}</span>
+              <span className='incorrect'>{correctAnswers.q14}</span>
             )}
           </div>
         </div>
@@ -305,7 +305,7 @@ export default function Verbs() {
             ) : quizStatus.q15 ? (
               <i className='fas fa-check checkMark'></i>
             ) : (
-              <span className='incorrect'>{correctAnswers.q1}</span>
+              <span className='incorrect'>{correctAnswers.q15}</span>
             )}
           </div>
         </div>
@@ -325,7 +325,7 @@ export default function Verbs() {
             ) : quizStatus.q16 ? (
               <i className='fas fa-check checkMark'></i>
             ) : (
-              <span className='incorrect'>{correctAnswers.q1}</span>
+              <span className='incorrect'>{correctAnswers.q16}</span>
             )}
           </div>
         </div>
@@ -349,7 +349,7 @@ export default function Verbs() {
           ) : quizStatus.q17 ? (
             <i className='fas fa-check checkMark'></i>
           ) : (
-            <span className='incorrect'>{correctAnswers.q1}</span>
+            <span className='incorrect'>{correctAnswers.q17}</span>
           )}{" "}
           in einem Krankenhaus. Er komm
           <input
@@ -363,7 +363,7 @@ export default function Verbs() {
           ) : quizStatus.q18 ? (
             <i className='fas fa-check checkMark'></i>
           ) : (
-            <span className='incorrect'>{correctAnswers.q1}</span>
+            <span className='incorrect'>{correctAnswers.q18}</span>
           )}{" "}
           aus Hamburg. Herr und Frau Bahr und die beiden Kinder Lisa und Felix
           leb
@@ -378,7 +378,7 @@ export default function Verbs() {
           ) : quizStatus.q19 ? (
             <i className='fas fa-check checkMark'></i>
           ) : (
-            <span className='incorrect'>{correctAnswers.q1}</span>
+            <span className='incorrect'>{correctAnswers.q19}</span>
           )}{" "}
           schon zhen Jahre in Berlin. "Wir leb
           <input
@@ -392,7 +392,7 @@ export default function Verbs() {
           ) : quizStatus.q20 ? (
             <i className='fas fa-check checkMark'></i>
           ) : (
-            <span className='incorrect'>{correctAnswers.q1}</span>
+            <span className='incorrect'>{correctAnswers.q20}</span>
           )}{" "}
           gern in Berlin", sag
           <input
@@ -406,7 +406,7 @@ export default function Verbs() {
           ) : quizStatus.q21 ? (
             <i className='fas fa-check checkMark'></i>
           ) : (
-            <span className='incorrect'>{correctAnswers.q1}</span>
+            <span className='incorrect'>{correctAnswers.q21}</span>
           )}{" "}
           Lisa, "ich find
           <input
@@ -420,7 +420,7 @@ export default function Verbs() {
           ) : quizStatus.q22 ? (
             <i className='fas fa-check checkMark'></i>
           ) : (
-            <span className='incorrect'>{correctAnswers.q1}</span>
+            <span className='incorrect'>{correctAnswers.q22}</span>
           )}{" "}
           es hier richtig gut. Aber später geh
           <input
@@ -434,7 +434,7 @@ export default function Verbs() {
           ) : quizStatus.q23 ? (
             <i className='fas fa-check checkMark'></i>
           ) : (
-            <span className='incorrect'>{correctAnswers.q1}</span>
+            <span className='incorrect'>{correctAnswers.q23}</span>
           )}{" "}
           ich nach London."
         </p>
