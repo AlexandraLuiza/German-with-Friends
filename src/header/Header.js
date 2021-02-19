@@ -3,14 +3,19 @@ import "./Header.css"
 
 const Header = () => {
   return (
-    <div>
-      <h1 className='header'>
-        <span>German</span> with Friends
-      </h1>
-      <h5 className='subhead'>
-        Have <span>Fun</span> while learning
-      </h5>
-    </div>
+    <>
+      <div className='header-pic'>
+        <div>
+          <h1 className='header'>
+            <span>German</span> with Friends
+          </h1>
+          <h5 className='subhead'>
+            Have <span>Fun</span> while learning
+          </h5>
+          <img className='study' src='studygroup.jpg' alt='studygroup'></img>
+        </div>
+      </div>
+    </>
   )
 }
 

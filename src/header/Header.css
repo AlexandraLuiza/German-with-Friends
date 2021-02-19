@@ -9,17 +9,15 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.header,
 .subhead {
-  left: 0;
-  line-height: 200px;
-  margin-top: -50px;
   position: absolute;
-  text-align: center;
+  left: 50%;
   top: 50%;
-  width: 100%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
   font-family: "Montserrat", sans-serif;
 }
-
 .header > span {
   color: #00996f;
 }
@@ -27,4 +25,13 @@
 .subhead > span {
   font-weight: bold;
   color: #00996f;
+}
+
+.study {
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
 }

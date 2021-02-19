@@ -2,13 +2,14 @@
   outline: none;
   border: none;
   border-bottom: solid;
+  width: 60px;
 }
 
 .phrases {
   outline: none;
   border: none;
   border-bottom: solid;
-  width: 20%;
+  width: 40%;
 }
 
 .check {
