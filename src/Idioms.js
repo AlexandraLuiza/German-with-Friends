@@ -6,14 +6,14 @@ const Idioms = () => {
     <div>
       <h2 className='title'>Idioms (Redewendungen)</h2>
       <h4 className='introduction'>Introduction</h4>
-      <p className='parag'>
+      <p className='introparag'>
         Idioms (also known as expressions or phrases) are fixed expressions that
         must be understood in a figurative, rather than literal sense. Although
         the origin of these expression is often no longer known, they are
         frequently used by native speakers in everyday conversation. Idioms can
         be tricky to understand.
       </p>
-      <p className='parag'>
+      <p className='introparag'>
         This chapter will cover:
         <ul>
           <li>Parts of the body</li>

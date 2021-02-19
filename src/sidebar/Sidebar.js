@@ -34,7 +34,7 @@ export default (props) => {
         </ul>
       </div>
       <div>
-        <a className='menu-item categ' href='/vocabulary'>
+        <a className='menu-item categ' href='#'>
           <i className='fas fa-caret-right arrow'></i>
           Vocabulary
         </a>
@@ -142,7 +142,7 @@ export default (props) => {
         </ul>
       </div>
       <div>
-        <a className='menu-item categ' href='/exercices'>
+        <a className='menu-item categ' href='#'>
           <i className='fas fa-caret-right arrow'></i>
           Exercises
         </a>

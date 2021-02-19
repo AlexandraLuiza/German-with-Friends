@@ -11,11 +11,10 @@ const Tenses = () => {
         </h2>
         <h4 className='introduction'>Introduction</h4>
         <p className='parag'>
-          German language has six tenses: <span>present</span> (Präsens),{" "}
-          <span>present perfect</span> (Perfekt), <span>simple past</span>{" "}
-          (Präteritum), <span>past perfect</span> (Plusquamperfekt),{" "}
-          <span>future</span> (Futur I) and <span>future perfect</span> (Futur
-          II).
+          German language has six tenses: <em>present</em> (Präsens),{" "}
+          <em>present perfect</em> (Perfekt), <em>simple past</em> (Präteritum),{" "}
+          <em>past perfect</em> (Plusquamperfekt), <em>future</em> (Futur I) and{" "}
+          <em>future perfect</em> (Futur II).
         </p>
       </div>
       <div>
@@ -77,8 +76,17 @@ const Tenses = () => {
               </td>
               <td>
                 <ul className='bullets'>
-                  <li>a condition or action in the present</li>
-                  <li>a pre-arranged action in the future</li>
+                  <li>a fact or condition in the present</li>
+                  <li>
+                    an action that takes place in the present once, repeatedly,
+                    or never
+                  </li>
+                  <li>
+                    a action that expresses how long something has been going on
+                  </li>
+                  <li>
+                    a future action that is already planned or agreed upon
+                  </li>
                 </ul>
               </td>
             </tr>
@@ -130,8 +138,14 @@ const Tenses = () => {
               </td>
               <td>
                 <ul className='bullets'>
-                  <li>a completed action in the past</li>
-                  <li>usually focusing on the result of the action</li>
+                  <li>
+                    a completed action in the past with the focus on the result
+                    of the action
+                  </li>
+                  <li>
+                    an action that will be completed by a certain point in the
+                    future.
+                  </li>
                 </ul>
               </td>
             </tr>
@@ -179,8 +193,9 @@ const Tenses = () => {
               </td>
               <td>
                 <ul className='bullets'>
-                  <li>a condition or completed action in the past</li>
+                  <li>a completed action in the past</li>
                   <li>stories, reports</li>
+                  <li>a fact or condition in the past</li>
                 </ul>
               </td>
             </tr>
@@ -286,9 +301,9 @@ const Tenses = () => {
               </td>
               <td>
                 <ul className='bullets'>
-                  <li>
-                    intention, supposition, or hope for the future or present
-                  </li>
+                  <li>a future intention</li>
+                  <li>an assumption about the future</li>
+                  <li>an assumption about the present</li>
                 </ul>
               </td>
             </tr>
@@ -340,7 +355,7 @@ const Tenses = () => {
               </td>
               <td>
                 <ul className='bullets'>
-                  <li>supposition about past events</li>
+                  <li>an assumption about an action in the past</li>
                   <li>
                     supposition or hope about something that will have happened
                     by a certain point in the future

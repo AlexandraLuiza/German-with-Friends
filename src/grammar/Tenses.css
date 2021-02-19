@@ -19,7 +19,7 @@
   font-weight: 500;
 }
 
-span {
+.no-bullets > li > span {
   font-weight: bold;
 }
 

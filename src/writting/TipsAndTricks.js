@@ -8,7 +8,7 @@ const TipsAndTricks = () => {
         Practical tips on writing in German to better learn the language
       </h2>
 
-      <div>
+      <div className='writting-tips'>
         <img
           className='img-tips'
           src='tips-and-tricks.png'

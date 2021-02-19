@@ -207,6 +207,7 @@ export default function Verbs() {
           viele Hobbys.
         </p>
       </div>
+
       <div>
         <p className='introparag'>Ü2. Schreiben Sie die Sätze. </p>
         <div className='form-group row'>

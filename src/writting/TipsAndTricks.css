@@ -3,3 +3,7 @@
   transform: rotate(31deg);
   float: right;
 }
+
+.writting-tips {
+  text-align: justify;
+}
