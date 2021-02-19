@@ -36,6 +36,70 @@ export default function Quiz() {
         { answerText: "die Älpen", isCorrect: false },
       ],
     },
+    {
+      questionText: 'What is the correct translation for "hospital"? ',
+      answerOptions: [
+        { answerText: "das Krankenhaus", isCorrect: true },
+        { answerText: "das Haus", isCorrect: false },
+        { answerText: "der Regenschirm", isCorrect: false },
+      ],
+    },
+    {
+      questionText: 'How would you write "a very nice friend"? ',
+      answerOptions: [
+        {
+          answerText: "ein sehr netter Freund",
+          isCorrect: true,
+        },
+        { answerText: "ein hohes Gebäude", isCorrect: false },
+        { answerText: "ein grüner Baum", isCorrect: false },
+      ],
+    },
+    {
+      questionText:
+        " Which of these sentences is written in the perfect tense? ",
+      answerOptions: [
+        { answerText: "Ich bin ins Kino gegangen.", isCorrect: true },
+        { answerText: "Ich hätte einen Film gesehen.", isCorrect: false },
+        { answerText: "Ich spielte Fußball.", isCorrect: false },
+      ],
+    },
+    {
+      questionText:
+        " FUDGEBO (für, um, durch, gegen, entlang, bis, ohne) prepositions trigger which case? ",
+      answerOptions: [
+        { answerText: "Accusative", isCorrect: true },
+        { answerText: "Dative", isCorrect: false },
+        { answerText: "Genitive", isCorrect: false },
+      ],
+    },
+    {
+      questionText:
+        " Which German case deals with possession (things like my brother's car, or the car of my brother)? ",
+      answerOptions: [
+        { answerText: "Genitive", isCorrect: true },
+        { answerText: "Dative", isCorrect: false },
+        { answerText: "Accusative", isCorrect: false },
+      ],
+    },
+    {
+      questionText:
+        '  In the sentence "The teacher gives the children homework" what is the verb? ',
+      answerOptions: [
+        {
+          answerText: "Homework",
+          isCorrect: false,
+        },
+        {
+          answerText: "Gives",
+          isCorrect: true,
+        },
+        {
+          answerText: "The children",
+          isCorrect: false,
+        },
+      ],
+    },
   ]
 
   const [currentQuestion, setCurrentQuestion] = useState(0)

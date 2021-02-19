@@ -1,4 +1,5 @@
 .calendar {
   width: 550px;
   float: right;
+  vertical-align: middle;
 }

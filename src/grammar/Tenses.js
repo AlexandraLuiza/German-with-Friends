@@ -32,7 +32,7 @@ const Tenses = () => {
             <tr>
               <td>Present (Präsens)</td>
               <td>
-                <ul>
+                <ul className='no-bullets'>
                   <li>
                     ich lern<span>e</span>
                   </li>
@@ -54,7 +54,7 @@ const Tenses = () => {
                 </ul>
               </td>
               <td>
-                <ul>
+                <ul className='no-bullets'>
                   <li>
                     ich seh<span>e</span>
                   </li>
@@ -85,7 +85,7 @@ const Tenses = () => {
             <tr>
               <td>Present perfect (Perfekt)</td>
               <td>
-                <ul>
+                <ul className='no-bullets'>
                   <li>
                     ich <span>habe ge</span>lern<span>t</span>
                   </li>
@@ -107,7 +107,7 @@ const Tenses = () => {
                 </ul>
               </td>
               <td>
-                <ul>
+                <ul className='no-bullets'>
                   <li>
                     ich <span>habe ge</span>seh<span>en</span>
                   </li>
@@ -138,7 +138,7 @@ const Tenses = () => {
             <tr>
               <td>Simple past (Präteritum, Imperfekt)</td>
               <td>
-                <ul>
+                <ul className='no-bullets'>
                   <li>
                     ich lern<span>te</span>
                   </li>
@@ -160,7 +160,7 @@ const Tenses = () => {
                 </ul>
               </td>
               <td>
-                <ul>
+                <ul className='no-bullets'>
                   <li>ich sah</li>
                   <li>
                     du sah<span>st</span>
@@ -187,7 +187,7 @@ const Tenses = () => {
             <tr>
               <td>Past perfect(Plusquamperfekt)</td>
               <td>
-                <ul>
+                <ul className='no-bullets'>
                   <li>
                     ich <span>hatte ge</span>lern<span>t</span>
                   </li>
@@ -209,7 +209,7 @@ const Tenses = () => {
                 </ul>
               </td>
               <td>
-                <ul>
+                <ul className='no-bullets'>
                   <li>
                     ich <span>hatte ge</span>seh<span>en</span>
                   </li>
@@ -241,7 +241,7 @@ const Tenses = () => {
             <tr>
               <td>Future (Zukunft)</td>
               <td>
-                <ul>
+                <ul className='no-bullets'>
                   <li>
                     ich <span>werde</span> lern<span>en</span>
                   </li>
@@ -263,7 +263,7 @@ const Tenses = () => {
                 </ul>
               </td>
               <td>
-                <ul>
+                <ul className='no-bullets'>
                   <li>
                     ich <span>werde</span> seh<span>en</span>
                   </li>
@@ -295,7 +295,7 @@ const Tenses = () => {
             <tr>
               <td>Future perfect (vollendete Zukunft))</td>
               <td>
-                <ul>
+                <ul className='no-bullets'>
                   <li>
                     ich <span>werde ge</span>lern<span>en haben</span>
                   </li>
@@ -317,7 +317,7 @@ const Tenses = () => {
                 </ul>
               </td>
               <td>
-                <ul>
+                <ul className='no-bullets'>
                   <li>
                     ich <span>werde ge</span>seh<span>en haben</span>
                   </li>
