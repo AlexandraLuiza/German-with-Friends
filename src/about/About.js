@@ -10,10 +10,9 @@ const about = () => {
 
       <p className='introparag'>
         I am Luiza and I am a philologist who graduated from Foreign Language
-        University. My love for German Language determated me to create this
-        site, where you can learn German while having fun. Here you can find
-        anything about German Grammar, Speaking skills and tips for you writting
-        essays.
+        University. My love for German Language inspired me to create this site,
+        where you can learn German while having fun. Here you can find anything
+        about German Grammar, Speaking skills and tips for you writting essays.
       </p>
       <p className='introparag'>
         You will have the opportunity to meet new people and also to help others

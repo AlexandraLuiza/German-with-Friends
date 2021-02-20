@@ -12,7 +12,11 @@ const Header = () => {
           <h5 className='subhead'>
             Have <span>Fun</span> while learning
           </h5>
-          <img className='study' src='studygroup.jpg' alt='studygroup'></img>
+          <img
+            className='study img-fluid'
+            src='studygroup.jpg'
+            alt='studygroup'
+          ></img>
         </div>
       </div>
     </>
