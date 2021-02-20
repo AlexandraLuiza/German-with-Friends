@@ -210,8 +210,8 @@ export default function Verbs() {
 
       <div>
         <p className='introparag'>Ü2. Schreiben Sie die Sätze. </p>
-        <div className='form-group row'>
-          <label className='col-sm-6 col-form-label introparag'>
+        <div className='form-group row introparag'>
+          <label className='col-sm-6 col-form-label'>
             1. Issabela/Schüllerin/sein
           </label>
           <div className='col-sm-6'>
@@ -230,8 +230,8 @@ export default function Verbs() {
             )}
           </div>
         </div>
-        <div className='form-group row'>
-          <label className='col-sm-6 col-form-label introparag'>
+        <div className='form-group row introparag'>
+          <label className='col-sm-6 col-form-label'>
             2. sie/am 1.April/sieben Jahre alt/werden
           </label>
           <div className='col-sm-6'>
@@ -250,8 +250,8 @@ export default function Verbs() {
             )}
           </div>
         </div>
-        <div className='form-group row'>
-          <label className='col-sm-6 col-form-label introparag'>
+        <div className='form-group row introparag'>
+          <label className='col-sm-6 col-form-label'>
             3. Ich/am 3.November/Geburstag/haben
           </label>
           <div className='col-sm-6'>
@@ -270,8 +270,8 @@ export default function Verbs() {
             )}
           </div>
         </div>
-        <div className='form-group row'>
-          <label className='col-sm-6 col-form-label introparag'>
+        <div className='form-group row introparag'>
+          <label className='col-sm-6 col-form-label'>
             4. dann/ich/sieben Jahre alt/ werden
           </label>
           <div className='col-sm-6'>
@@ -290,8 +290,8 @@ export default function Verbs() {
             )}
           </div>
         </div>
-        <div className='form-group row'>
-          <label className='col-sm-6 col-form-label introparag'>
+        <div className='form-group row introparag'>
+          <label className='col-sm-6 col-form-label'>
             5. heute/das Wetter/schlecht/sein
           </label>
           <div className='col-sm-6'>
@@ -310,8 +310,8 @@ export default function Verbs() {
             )}
           </div>
         </div>
-        <div className='form-group row'>
-          <label className='col-sm-6 col-form-label introparag'>
+        <div className='form-group row introparag'>
+          <label className='col-sm-6 col-form-label'>
             6. morgen/es/besser/werden
           </label>
           <div className='col-sm-6'>
