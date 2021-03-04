@@ -338,7 +338,7 @@ export default function Verbs() {
           Endungen.
         </p>
         <p className='introparag'>
-          Familie Bahr wonhn<em>t</em> in Berlin. Herr Bahr arbeitet
+          Familie Bahr wonhn<em>t</em> in Berlin. Herr Bahr arbeite
           <input
             className='text'
             name='q17'
