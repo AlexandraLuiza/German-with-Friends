@@ -2,31 +2,6 @@ import React from "react"
 import { Form, Col, Button } from "react-bootstrap"
 import "./ContactMe.css"
 
-// import isEmpty from "lodash/fp/isEmpty"
-
-// const handleSubmit = (evt) => {
-//   evt.preventDefault()
-//   const { email } = this.state
-//   const errors = {}
-//   if (!email) {
-//     errors.email = "Please enter email"
-//   } else if (!email.includes("@")) {
-//     errors.email = "The email is invalid"
-//   }
-//   if (!isEmpty(errors)) {
-//     return this.setState({ errors })
-//   }
-// }
-
-// const
-
-// const onSubmit = (evt) => {
-//   evt.preventDefault()
-//   console.log(evt)
-//   alert(`thank you for your message`)
-//   reset()
-// }
-
 const ContactMe = () => {
   return (
     <div className='container mt-5'>
