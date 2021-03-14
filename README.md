@@ -2,6 +2,40 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is a German Language platform which is ment to help people lear German with friends. 
+
+Homepage
+
+![alt text](https://github.com/AlexandraLuiza/German-with-Friends/blob/master/screenshots/homepage.jpg?raw=true)
+
+
+Contact form
+
+![alt text](https://github.com/AlexandraLuiza/German-with-Friends/blob/master/screenshots/contact%20form.jpg?raw=true)
+
+
+Sidebar
+
+![alt text](https://github.com/AlexandraLuiza/German-with-Friends/blob/master/screenshots/sidebar.jpg?raw=true)
+
+
+Exercises
+
+![alt text](https://github.com/AlexandraLuiza/German-with-Friends/blob/master/screenshots/exercises.jpg?raw=true)
+
+
+Check answers
+
+![alt text](https://github.com/AlexandraLuiza/German-with-Friends/blob/master/screenshots/check%20answers%20exercises.jpg?raw=true)
+
+Idioms
+
+![alt text](https://github.com/AlexandraLuiza/German-with-Friends/blob/master/screenshots/idioms.jpg?raw=true)
+
+Quiz
+
+![alt text](https://github.com/AlexandraLuiza/German-with-Friends/blob/master/screenshots/quiz.jpg?raw=true)
+
 ## Available Scripts
 
 In the project directory, you can run:
