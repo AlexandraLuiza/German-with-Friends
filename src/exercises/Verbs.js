@@ -49,9 +49,9 @@ export default function Verbs() {
     forceUpdate()
   }
 
-  const handleChange = (e) => {
+  const handleChange = (evt) => {
     let ans = answers
-    ans[e.target.name] = e.target.value
+    ans[evt.target.name] = evt.target.value
     setAnswers(ans)
   }
 

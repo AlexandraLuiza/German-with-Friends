@@ -125,6 +125,19 @@ export default function Quiz() {
     }
   }
 
+  const handleAnswerOptionBack = (isCorrect) => {
+    if (isCorrect) {
+      setScore(score + 1)
+    }
+
+    const nextQuestion = currentQuestion - 1
+    if (nextQuestion < questions.length) {
+      setCurrentQuestion(nextQuestion)
+    } else {
+      setShowScore(true)
+    }
+  }
+
   return (
     <div className='app'>
       {showScore ? (
@@ -148,14 +161,19 @@ export default function Quiz() {
           </div>
           <div className='answer-section'>
             {questions[currentQuestion].answerOptions.map((answerOption) => (
-              <button
-                className='btn'
-                key={answerOption.answerText}
-                onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}
-              >
+              <button className='btn' key={answerOption.answerText}>
                 {answerOption.answerText}
               </button>
             ))}
+            <button className='btn' onClick={() => handleAnswerOptionClick()}>
+              Next
+            </button>
+            <button
+              className='btn nextback'
+              onClick={() => handleAnswerOptionBack()}
+            >
+              Back
+            </button>
           </div>
         </>
       )}
