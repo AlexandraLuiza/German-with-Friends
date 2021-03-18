@@ -1,0 +1,18 @@
+textarea {
+  resize: none;
+}
+
+.btn-submit {
+  text-align: center;
+  margin: auto;
+}
+
+.message-thank{
+  text-align: center;
+  margin: auto;
+  background-color: #00805d;
+  color: #ffffff;
+  border: 3px solid #00664a;
+  border-radius: 10px;
+  margin-bottom: 3%;
+}

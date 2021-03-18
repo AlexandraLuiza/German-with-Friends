@@ -43,7 +43,7 @@ export default function Verbs() {
     let status = quizStatus
     for (const answer in answers) {
       status[answer] =
-        answers[answer].toLowerCase() === correctAnswers[answer].toLowerCase()
+        answers[answer].trim().toLowerCase() === correctAnswers[answer].trim().toLowerCase()
     }
     setQuizStatus(status)
     forceUpdate()
@@ -64,146 +64,35 @@ export default function Verbs() {
           Form.
         </p>
         <p className='introparag'>
-          Das{" "}
-          <input
-            className='text'
-            name='q1'
-            type='text'
-            onChange={handleChange}
-          ></input>
-          {!quizStatus.hasOwnProperty("q1") ? (
-            ""
-          ) : quizStatus.q1 ? (
-            <i className='fas fa-check checkMark'></i>
-          ) : (
-            <span className='incorrect'>{correctAnswers.q1}</span>
-          )}{" "}
+          Das{" "}<input className='text' name='q1' type='text' onChange={handleChange} />
+          {!quizStatus.hasOwnProperty("q1") ? ("") : quizStatus.q1 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q1}</span>)}{" "}
           ich. Ich{" "}
-          <input
-            className='text'
-            name='q2'
-            type='text'
-            onChange={handleChange}
-          ></input>
-          {!quizStatus.hasOwnProperty("q2") ? (
-            ""
-          ) : quizStatus.q2 ? (
-            <i className='fas fa-check checkMark'></i>
-          ) : (
-            <span className='incorrect'>{correctAnswers.q2}</span>
-          )}{" "}
+          <input className='text' name='q2' type='text' onChange={handleChange}></input>
+          {!quizStatus.hasOwnProperty("q2") ? ("") : quizStatus.q2 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q2}</span>)}{" "}
           sieben Jahre alt. Ich{" "}
-          <input
-            className='text'
-            name='q3'
-            type='text'
-            onChange={handleChange}
-          ></input>
-          {!quizStatus.hasOwnProperty("q3") ? (
-            ""
-          ) : quizStatus.q3 ? (
-            <i className='fas fa-check checkMark'></i>
-          ) : (
-            <span className='incorrect'>{correctAnswers.q3}</span>
-          )}{" "}
+          <input className='text' name='q3' type='text' onChange={handleChange} />
+          {!quizStatus.hasOwnProperty("q3") ? ("") : quizStatus.q3 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q3}</span>)}{" "}
           eine Schwester. Sie{" "}
-          <input
-            className='text'
-            name='q4'
-            type='text'
-            onChange={handleChange}
-          ></input>
-          {!quizStatus.hasOwnProperty("q4") ? (
-            ""
-          ) : quizStatus.q4 ? (
-            <i className='fas fa-check checkMark'></i>
-          ) : (
-            <span className='incorrect'>{correctAnswers.q4}</span>
-          )}{" "}
+          <input className='text' name='q4' type='text' onChange={handleChange} />
+          {!quizStatus.hasOwnProperty("q4") ? ("") : quizStatus.q4 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q4}</span>)}{" "}
           Fußballerina. Wir{" "}
-          <input
-            className='text'
-            name='q5'
-            type='text'
-            onChange={handleChange}
-          ></input>
-          {!quizStatus.hasOwnProperty("q5") ? (
-            ""
-          ) : quizStatus.q5 ? (
-            <i className='fas fa-check checkMark'></i>
-          ) : (
-            <span className='incorrect'>{correctAnswers.q5}</span>
-          )}{" "}
+          <input className='text' name='q5' type='text' onChange={handleChange} />
+          {!quizStatus.hasOwnProperty("q5") ? ("") : quizStatus.q5 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q5}</span>)}{" "}
           auch zwei Brüder, Leo und Max. Sie{" "}
-          <input
-            className='text'
-            name='q6'
-            type='text'
-            onChange={handleChange}
-          ></input>
-          {!quizStatus.hasOwnProperty("q6") ? (
-            ""
-          ) : quizStatus.q6 ? (
-            <i className='fas fa-check checkMark'></i>
-          ) : (
-            <span className='incorrect'>{correctAnswers.q6}</span>
-          )}{" "}
+          <input className='text' name='q6' type='text' onChange={handleChange} />
+          {!quizStatus.hasOwnProperty("q6") ? ("") : quizStatus.q6 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q6}</span>)}{" "}
           noch klein, sie{" "}
-          <input
-            className='text'
-            name='q7'
-            type='text'
-            onChange={handleChange}
-          ></input>
-          {!quizStatus.hasOwnProperty("q7") ? (
-            ""
-          ) : quizStatus.q7 ? (
-            <i className='fas fa-check checkMark'></i>
-          ) : (
-            <span className='incorrect'>{correctAnswers.q7}</span>
-          )}{" "}
+          <input className='text' name='q7' type='text' onChange={handleChange} />
+          {!quizStatus.hasOwnProperty("q7") ? ("") : quizStatus.q7 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q7}</span>)}{" "}
           erst für Jahre alt. Und das{" "}
-          <input
-            className='text'
-            name='q8'
-            type='text'
-            onChange={handleChange}
-          ></input>
-          {!quizStatus.hasOwnProperty("q8") ? (
-            ""
-          ) : quizStatus.q8 ? (
-            <i className='fas fa-check checkMark'></i>
-          ) : (
-            <span className='incorrect'>{correctAnswers.q8}</span>
-          )}{" "}
+          <input className='text' name='q8' type='text' onChange={handleChange} />
+          {!quizStatus.hasOwnProperty("q8") ? ("") : quizStatus.q8 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q8}</span>)}{" "}
           ist Dora. Wir{" "}
-          <input
-            className='text'
-            name='q9'
-            type='text'
-            onChange={handleChange}
-          ></input>
-          {!quizStatus.hasOwnProperty("q9") ? (
-            ""
-          ) : quizStatus.q9 ? (
-            <i className='fas fa-check checkMark'></i>
-          ) : (
-            <span className='incorrect'>{correctAnswers.q9}</span>
-          )}{" "}
+          <input className='text' name='q9' type='text' onChange={handleChange} />
+          {!quizStatus.hasOwnProperty("q9") ? ("") : quizStatus.q9 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q9}</span>)}{" "}
           gute Freundinnen. Wir{" "}
-          <input
-            className='text'
-            name='q10'
-            type='text'
-            onChange={handleChange}
-          ></input>
-          {!quizStatus.hasOwnProperty("q10") ? (
-            ""
-          ) : quizStatus.q10 ? (
-            <i className='fas fa-check checkMark'></i>
-          ) : (
-            <span className='incorrect'>{correctAnswers.q10}</span>
-          )}{" "}
+          <input className='text' name='q10' type='text' onChange={handleChange} />
+          {!quizStatus.hasOwnProperty("q10") ? ("") : quizStatus.q10 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q10}</span>)}{" "}
           viele Hobbys.
         </p>
       </div>
@@ -215,19 +104,8 @@ export default function Verbs() {
             1. Issabela/Schüllerin/sein
           </label>
           <div className='col-sm-6'>
-            <input
-              type='text'
-              className='form-control form-control-sm phrases'
-              name='q11'
-              onChange={handleChange}
-            />
-            {!quizStatus.hasOwnProperty("q11") ? (
-              ""
-            ) : quizStatus.q11 ? (
-              <i className='fas fa-check checkMark'></i>
-            ) : (
-              <span className='incorrect'>{correctAnswers.q11}</span>
-            )}
+            <input type='text' className='form-control form-control-sm phrases' name='q11' onChange={handleChange} />
+            {!quizStatus.hasOwnProperty("q11") ? ("") : quizStatus.q11 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q11}</span>)}
           </div>
         </div>
         <div className='form-group row introparag'>
@@ -235,19 +113,8 @@ export default function Verbs() {
             2. sie/am 1.April/sieben Jahre alt/werden
           </label>
           <div className='col-sm-6'>
-            <input
-              type='text'
-              className='form-control form-control-sm phrases'
-              name='q12'
-              onChange={handleChange}
-            />
-            {!quizStatus.hasOwnProperty("q12") ? (
-              ""
-            ) : quizStatus.q12 ? (
-              <i className='fas fa-check checkMark'></i>
-            ) : (
-              <span className='incorrect'>{correctAnswers.q12}</span>
-            )}
+            <input type='text' className='form-control form-control-sm phrases' name='q12' onChange={handleChange} />
+            {!quizStatus.hasOwnProperty("q12") ? ("") : quizStatus.q12 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q12}</span>)}
           </div>
         </div>
         <div className='form-group row introparag'>
@@ -255,19 +122,8 @@ export default function Verbs() {
             3. Ich/am 3.November/Geburstag/haben
           </label>
           <div className='col-sm-6'>
-            <input
-              type='text'
-              className='form-control form-control-sm phrases'
-              name='q13'
-              onChange={handleChange}
-            />
-            {!quizStatus.hasOwnProperty("q13") ? (
-              ""
-            ) : quizStatus.q13 ? (
-              <i className='fas fa-check checkMark'></i>
-            ) : (
-              <span className='incorrect'>{correctAnswers.q13}</span>
-            )}
+            <input type='text' className='form-control form-control-sm phrases' name='q13' onChange={handleChange} />
+            {!quizStatus.hasOwnProperty("q13") ? ("") : quizStatus.q13 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q13}</span>)}
           </div>
         </div>
         <div className='form-group row introparag'>
@@ -275,19 +131,8 @@ export default function Verbs() {
             4. dann/ich/sieben Jahre alt/ werden
           </label>
           <div className='col-sm-6'>
-            <input
-              type='text'
-              className='form-control form-control-sm phrases'
-              name='q14'
-              onChange={handleChange}
-            />
-            {!quizStatus.hasOwnProperty("q14") ? (
-              ""
-            ) : quizStatus.q14 ? (
-              <i className='fas fa-check checkMark'></i>
-            ) : (
-              <span className='incorrect'>{correctAnswers.q14}</span>
-            )}
+            <input type='text' className='form-control form-control-sm phrases' name='q14' onChange={handleChange} />
+            {!quizStatus.hasOwnProperty("q14") ? ("") : quizStatus.q14 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q14}</span>)}
           </div>
         </div>
         <div className='form-group row introparag'>
@@ -295,19 +140,8 @@ export default function Verbs() {
             5. heute/das Wetter/schlecht/sein
           </label>
           <div className='col-sm-6'>
-            <input
-              type='text'
-              className='form-control form-control-sm phrases'
-              name='q15'
-              onChange={handleChange}
-            />
-            {!quizStatus.hasOwnProperty("q15") ? (
-              ""
-            ) : quizStatus.q15 ? (
-              <i className='fas fa-check checkMark'></i>
-            ) : (
-              <span className='incorrect'>{correctAnswers.q15}</span>
-            )}
+            <input type='text' className='form-control form-control-sm phrases' name='q15' onChange={handleChange} />
+            {!quizStatus.hasOwnProperty("q15") ? ("") : quizStatus.q15 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q15}</span>)}
           </div>
         </div>
         <div className='form-group row introparag'>
@@ -315,19 +149,8 @@ export default function Verbs() {
             6. morgen/es/besser/werden
           </label>
           <div className='col-sm-6'>
-            <input
-              type='text'
-              className='form-control form-control-sm phrases'
-              name='q16'
-              onChange={handleChange}
-            />
-            {!quizStatus.hasOwnProperty("q16") ? (
-              ""
-            ) : quizStatus.q16 ? (
-              <i className='fas fa-check checkMark'></i>
-            ) : (
-              <span className='incorrect'>{correctAnswers.q16}</span>
-            )}
+            <input type='text' className='form-control form-control-sm phrases' name='q16' onChange={handleChange} />
+            {!quizStatus.hasOwnProperty("q16") ? ("") : quizStatus.q16 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q16}</span>)}
           </div>
         </div>
       </div>
@@ -339,104 +162,27 @@ export default function Verbs() {
         </p>
         <p className='introparag'>
           Familie Bahr wonhn<em>t</em> in Berlin. Herr Bahr arbeite
-          <input
-            className='text'
-            name='q17'
-            type='text'
-            onChange={handleChange}
-          ></input>
-          {!quizStatus.hasOwnProperty("q17") ? (
-            ""
-          ) : quizStatus.q17 ? (
-            <i className='fas fa-check checkMark'></i>
-          ) : (
-            <span className='incorrect'>{correctAnswers.q17}</span>
-          )}{" "}
+          <input type='text' className='text' name='q17' onChange={handleChange} />
+          {!quizStatus.hasOwnProperty("q17") ? ("") : quizStatus.q17 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q17}</span>)}{" "}
           in einem Krankenhaus. Er komm
-          <input
-            className='text'
-            name='q18'
-            type='text'
-            onChange={handleChange}
-          ></input>
-          {!quizStatus.hasOwnProperty("q18") ? (
-            ""
-          ) : quizStatus.q18 ? (
-            <i className='fas fa-check checkMark'></i>
-          ) : (
-            <span className='incorrect'>{correctAnswers.q18}</span>
-          )}{" "}
+          <input type='text' className='text' name='q18' onChange={handleChange} />
+          {!quizStatus.hasOwnProperty("q18") ? ("") : quizStatus.q18 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q18}</span>)}{" "}
           aus Hamburg. Herr und Frau Bahr und die beiden Kinder Lisa und Felix
           leb
-          <input
-            className='text'
-            name='q19'
-            type='text'
-            onChange={handleChange}
-          ></input>
-          {!quizStatus.hasOwnProperty("q19") ? (
-            ""
-          ) : quizStatus.q19 ? (
-            <i className='fas fa-check checkMark'></i>
-          ) : (
-            <span className='incorrect'>{correctAnswers.q19}</span>
-          )}{" "}
+          <input type='text' className='text' name='q19' onChange={handleChange} />
+          {!quizStatus.hasOwnProperty("q19") ? ("") : quizStatus.q19 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q19}</span>)}{" "}
           schon zhen Jahre in Berlin. "Wir leb
-          <input
-            className='text'
-            name='q20'
-            type='text'
-            onChange={handleChange}
-          ></input>
-          {!quizStatus.hasOwnProperty("q20") ? (
-            ""
-          ) : quizStatus.q20 ? (
-            <i className='fas fa-check checkMark'></i>
-          ) : (
-            <span className='incorrect'>{correctAnswers.q20}</span>
-          )}{" "}
+          <input type='text' className='text' name='q20' onChange={handleChange} />
+          {!quizStatus.hasOwnProperty("q20") ? ("") : quizStatus.q14 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q20}</span>)}{" "}
           gern in Berlin", sag
-          <input
-            className='text'
-            name='q21'
-            type='text'
-            onChange={handleChange}
-          ></input>
-          {!quizStatus.hasOwnProperty("q21") ? (
-            ""
-          ) : quizStatus.q21 ? (
-            <i className='fas fa-check checkMark'></i>
-          ) : (
-            <span className='incorrect'>{correctAnswers.q21}</span>
-          )}{" "}
+          <input type='text' className='text' name='q21' onChange={handleChange} />
+          {!quizStatus.hasOwnProperty("q21") ? ("") : quizStatus.q14 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q21}</span>)}{" "}
           Lisa, "ich find
-          <input
-            className='text'
-            name='q22'
-            type='text'
-            onChange={handleChange}
-          ></input>
-          {!quizStatus.hasOwnProperty("q22") ? (
-            ""
-          ) : quizStatus.q22 ? (
-            <i className='fas fa-check checkMark'></i>
-          ) : (
-            <span className='incorrect'>{correctAnswers.q22}</span>
-          )}{" "}
+          <input type='text' className='text' name='q22' onChange={handleChange} />
+          {!quizStatus.hasOwnProperty("q22") ? ("") : quizStatus.q22 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q22}</span>)}{" "}
           es hier richtig gut. Aber später geh
-          <input
-            className='text'
-            name='q23'
-            type='text'
-            onChange={handleChange}
-          ></input>
-          {!quizStatus.hasOwnProperty("q23") ? (
-            ""
-          ) : quizStatus.q23 ? (
-            <i className='fas fa-check checkMark'></i>
-          ) : (
-            <span className='incorrect'>{correctAnswers.q23}</span>
-          )}{" "}
+          <input type='text' className='text' name='q23' onChange={handleChange} />
+          {!quizStatus.hasOwnProperty("q23") ? ("") : quizStatus.q14 ? (<i className='fas fa-check checkMark'></i>) : (<span className='incorrect'>{correctAnswers.q23}</span>)}{" "}
           ich nach London."
         </p>
         <div>

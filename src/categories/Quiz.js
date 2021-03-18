@@ -159,21 +159,16 @@ export default function Quiz() {
               {questions[currentQuestion].questionText}
             </div>
           </div>
-          <div className='answer-section'>
+          <div className='answer-section selected'>
             {questions[currentQuestion].answerOptions.map((answerOption) => (
-              <button className='btn' key={answerOption.answerText}>
+              <button className='btn' key={answerOption.answerText} onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>
                 {answerOption.answerText}
               </button>
             ))}
-            <button className='btn' onClick={() => handleAnswerOptionClick()}>
-              Next
-            </button>
-            <button
-              className='btn nextback'
-              onClick={() => handleAnswerOptionBack()}
-            >
-              Back
-            </button>
+            <div>
+              <button className='btn-option' onClick={() => handleAnswerOptionClick()}>Next</button>
+              <button className='btn-option nextback' onClick={() => handleAnswerOptionBack()}>Back</button>
+            </div>
           </div>
         </>
       )}

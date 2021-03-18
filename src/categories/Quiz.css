@@ -77,9 +77,19 @@
   outline: none;
 }
 
+
 .restart {
   width: 80px;
   margin-left: 10%;
+}
+
+.btn-option{
+  border: 5px solid #00664a;
+   background-color: #00805d;
+}
+
+.btn-option:focus{
+  outline:none;
 }
 
 .nextback{

@@ -21,7 +21,7 @@ import OrdinalNumbers from "./vocabulary/OrdinalNumbers"
 import Time from "./vocabulary/Time"
 import Date from "./vocabulary/Date"
 import PartsOfTheBody from "./vocabulary/PartsOfTheBody"
-import ContactMe from "./ContactMe"
+import ContactForm from "./ContactForm"
 import Idioms from "./Idioms"
 import Spring from "./vocabulary/Spring"
 import Verbs from "./exercises/Verbs"
@@ -53,7 +53,7 @@ function App() {
             <Route path='/time' component={Time} />
             <Route path='/date' component={Date} />
             <Route path='/body' component={PartsOfTheBody} />
-            <Route path='/contact' component={ContactMe} />
+            <Route path='/contact' component={ContactForm} />
             <Route path='/idioms' component={Idioms} />
             <Route path='/spring' component={Spring} />
             <Route path='/exercises-grammar' component={Verbs} />
