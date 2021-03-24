@@ -71,7 +71,7 @@
   background-color: #3e8e41;
   box-shadow: 0 5px #004d38;
   transform: translateY(4px);
-  }
+}
 
 .btn:focus {
   outline: none;
@@ -83,7 +83,7 @@
   margin-left: 10%;
 }
 
-.btn-option{
+.btn-option {
   margin-top: 4px;
   border: 5px solid #00664a;
   background-color: #00805d;
@@ -91,13 +91,26 @@
   cursor: pointer;
   display: inline-flex;
   justify-content: space-between;
-  color:#fff;
+  color: #fff;
 }
 
-.btn-option:focus{
-  outline:none;
+.btn-option:focus {
+  outline: none;
 }
 
-.nextback{
+.nextback {
   float: left;
+  margin-right: 10px;
+}
+
+.answers-correct {
+  overflow: scroll;
+  width: 1000px;
+  height: 400px;
+  color: #fff;
+  padding: 0px 30px 0px 0px;
+}
+
+.correct {
+  color: aqua;
 }

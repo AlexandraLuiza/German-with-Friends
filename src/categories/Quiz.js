@@ -188,16 +188,15 @@ export default function Quiz() {
         </>
       )}
       {showScore ? (
-      <div>
+      <div className = "answers-correct">
         {questions.map((question, i) => {
           return <div>
             <p key={question.questionText}>{question.questionText}</p>
-            <p>Correct answer: {question.answerOptions.filter(ao => ao.isCorrect)[0].answerText}</p>
+            <p className="correct">Correct answer: {question.answerOptions.filter(ao => ao.isCorrect)[0].answerText}</p>
             <p>Your answer: {question.answerOptions[answers[i]].answerText}</p>
           </div>;
         })}
-        
-      </div>) : "" }
+        </div>) : "" }
     </div>
   );
 }
