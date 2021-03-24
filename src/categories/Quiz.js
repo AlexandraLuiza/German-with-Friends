@@ -111,6 +111,9 @@ export default function Quiz() {
   const calculateScore = () => {
     let tmpScore = 0;
     for (let i = 0; i < answers.length; i++) {
+      if(answers[i] === null || answers[i] === undefined) 
+        continue;
+
       if (questions[i].answerOptions[answers[i]].isCorrect) {
         tmpScore += 1;
       }
@@ -130,8 +133,8 @@ export default function Quiz() {
 
   const handleAnswerOptionBack = () => {
     if (currentQuestion > 0) {
-      const nextQuestion = currentQuestion - 1;
-      setCurrentQuestion(nextQuestion);
+      const previousQuestion = currentQuestion - 1;
+      setCurrentQuestion(previousQuestion);
     }
   };
 
@@ -193,7 +196,7 @@ export default function Quiz() {
           return <div>
             <p key={question.questionText}>{question.questionText}</p>
             <p className="correct">Correct answer: {question.answerOptions.filter(ao => ao.isCorrect)[0].answerText}</p>
-            <p>Your answer: {question.answerOptions[answers[i]].answerText}</p>
+            <p>Your answer: {answers[i] == null ? "" : question.answerOptions[answers[i]].answerText}</p>
           </div>;
         })}
         </div>) : "" }
