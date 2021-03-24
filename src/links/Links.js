@@ -11,16 +11,16 @@ function Navigation() {
             <Navbar.Collapse id='basic-navbar-nav'>
               <Nav className='ml-auto '>
                 <Nav.Link href='/home' className='navigation'>
-                  <i class='fas fa-home'></i> Home
+                  <i className='fas fa-home'></i> Home
                 </Nav.Link>
                 <Nav.Link href='/about' className='navigation'>
-                  <i class='fas fa-address-card'></i> About Us
+                  <i className='fas fa-address-card'></i> About Us
                 </Nav.Link>
                 <Nav.Link href='/login' className='navigation'>
-                  <i class='fas fa-sign-in-alt'></i> Log In
+                  <i className='fas fa-sign-in-alt'></i> Log In
                 </Nav.Link>
                 <Nav.Link href='/contact' className='navigation'>
-                  <i class='fas fa-id-card-alt'></i> Contact
+                  <i className='fas fa-id-card-alt'></i> Contact
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>

@@ -47,17 +47,14 @@ export default function Quiz() {
     {
       questionText: 'How would you write "a very nice friend"? ',
       answerOptions: [
-        {
-          answerText: "ein sehr netter Freund",
-          isCorrect: true,
-        },
+        { answerText: "ein sehr netter Freund", isCorrect: true },
         { answerText: "ein hohes Gebäude", isCorrect: false },
         { answerText: "ein grüner Baum", isCorrect: false },
       ],
     },
     {
       questionText:
-        " Which of these sentences is written in the perfect tense? ",
+        "Which of these sentences is written in the perfect tense?",
       answerOptions: [
         { answerText: "Ich bin ins Kino gegangen.", isCorrect: true },
         { answerText: "Ich hätte einen Film gesehen.", isCorrect: false },
@@ -66,7 +63,7 @@ export default function Quiz() {
     },
     {
       questionText:
-        " FUDGEBO (für, um, durch, gegen, entlang, bis, ohne) prepositions trigger which case? ",
+        "FUDGEBO (für, um, durch, gegen, entlang, bis, ohne) prepositions trigger which case?",
       answerOptions: [
         { answerText: "Accusative", isCorrect: true },
         { answerText: "Dative", isCorrect: false },
@@ -75,7 +72,7 @@ export default function Quiz() {
     },
     {
       questionText:
-        " Which German case deals with possession (things like my brother's car, or the car of my brother)? ",
+        "Which German case deals with possession (things like my brother's car, or the car of my brother)?",
       answerOptions: [
         { answerText: "Genitive", isCorrect: true },
         { answerText: "Dative", isCorrect: false },
@@ -84,20 +81,11 @@ export default function Quiz() {
     },
     {
       questionText:
-        '  In the sentence "The teacher gives the children homework" what is the verb? ',
+        'In the sentence "The teacher gives the children homework" what is the verb?',
       answerOptions: [
-        {
-          answerText: "Homework",
-          isCorrect: false,
-        },
-        {
-          answerText: "Gives",
-          isCorrect: true,
-        },
-        {
-          answerText: "The children",
-          isCorrect: false,
-        },
+        { answerText: "Homework", isCorrect: false },
+        { answerText: "Gives", isCorrect: true },
+        { answerText: "The children", isCorrect: false },
       ],
     },
   ];
@@ -152,14 +140,7 @@ export default function Quiz() {
       {showScore ? (
         <div className="score-section">
           You scored {score} out of {questions.length}
-          <div>
-            <div>
-              {questions.map((question, i) => {
-                /*  console.log(question); */
-                return <p>{question.questionText}</p>;
-              })}
-              
-            </div>
+          <div>            
             <button className="btn" onClick={() => handleReset()}>
               Restart
             </button>
@@ -206,6 +187,17 @@ export default function Quiz() {
           </div>
         </>
       )}
+      {showScore ? (
+      <div>
+        {questions.map((question, i) => {
+          return <div>
+            <p key={question.questionText}>{question.questionText}</p>
+            <p>Correct answer: {question.answerOptions.filter(ao => ao.isCorrect)[0].answerText}</p>
+            <p>Your answer: {question.answerOptions[answers[i]].answerText}</p>
+          </div>;
+        })}
+        
+      </div>) : "" }
     </div>
   );
 }

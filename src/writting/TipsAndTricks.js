@@ -3,7 +3,7 @@ import "./TipsAndTricks.css";
 
 const TipsAndTricks = () => {
   return (
-    <div>
+    <div className="col-md-11">
       <h2 className="title">
         Practical tips on writing in German to better learn the language
       </h2>
