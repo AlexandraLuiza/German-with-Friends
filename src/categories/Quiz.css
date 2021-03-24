@@ -71,12 +71,12 @@
   background-color: #3e8e41;
   box-shadow: 0 5px #004d38;
   transform: translateY(4px);
-}
+  }
 
 .btn:focus {
   outline: none;
+  color: yellow;
 }
-
 
 .restart {
   width: 80px;
@@ -84,8 +84,14 @@
 }
 
 .btn-option{
+  margin-top: 4px;
   border: 5px solid #00664a;
-   background-color: #00805d;
+  background-color: #00805d;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: space-between;
+  color:#fff;
 }
 
 .btn-option:focus{

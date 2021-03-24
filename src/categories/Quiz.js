@@ -1,5 +1,5 @@
-import React, { useState } from "react"
-import "./Quiz.css"
+import React, { useState } from "react";
+import "./Quiz.css";
 
 export default function Quiz() {
   const questions = [
@@ -100,78 +100,112 @@ export default function Quiz() {
         },
       ],
     },
-  ]
+  ];
 
-  const [currentQuestion, setCurrentQuestion] = useState(0)
-  const [showScore, setShowScore] = useState(false)
-  const [score, setScore] = useState(0)
+  const [answers, setAnswers] = useState([]);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [showScore, setShowScore] = useState(false);
+  const [score, setScore] = useState(0);
 
   const handleReset = () => {
-    setScore(0)
-    setShowScore(false)
-    setCurrentQuestion(0)
-  }
+    setScore(0);
+    setShowScore(false);
+    setCurrentQuestion(0);
+    setAnswers([]);
+  };
 
-  const handleAnswerOptionClick = (isCorrect) => {
-    if (isCorrect) {
-      setScore(score + 1)
+  const handleAnswerOptionClick = (questionIndex, answerIndex) => {
+    answers[questionIndex] = answerIndex;
+    setAnswers(answers);
+    console.log(questionIndex, answerIndex, answers);
+  };
+
+  const calculateScore = () => {
+    let tmpScore = 0;
+    for (let i = 0; i < answers.length; i++) {
+      if (questions[i].answerOptions[answers[i]].isCorrect) {
+        tmpScore += 1;
+      }
     }
+    setScore(tmpScore);
+  };
 
-    const nextQuestion = currentQuestion + 1
+  const handleAnswerOptionNext = () => {
+    const nextQuestion = currentQuestion + 1;
     if (nextQuestion < questions.length) {
-      setCurrentQuestion(nextQuestion)
+      setCurrentQuestion(nextQuestion);
     } else {
-      setShowScore(true)
+      calculateScore();
+      setShowScore(true);
     }
-  }
+  };
 
-  const handleAnswerOptionBack = (isCorrect) => {
-    if (isCorrect) {
-      setScore(score + 1)
+  const handleAnswerOptionBack = () => {
+    if (currentQuestion > 0) {
+      const nextQuestion = currentQuestion - 1;
+      setCurrentQuestion(nextQuestion);
     }
-
-    const nextQuestion = currentQuestion - 1
-    if (nextQuestion < questions.length) {
-      setCurrentQuestion(nextQuestion)
-    } else {
-      setShowScore(true)
-    }
-  }
+  };
 
   return (
-    <div className='app'>
+    <div className="app">
       {showScore ? (
-        <div className='score-section'>
+        <div className="score-section">
           You scored {score} out of {questions.length}
           <div>
-            <button className='btn' onClick={() => handleReset()}>
+            <div>
+              {questions.map((question, i) => {
+                /*  console.log(question); */
+                return <p>{question.questionText}</p>;
+              })}
+              
+            </div>
+            <button className="btn" onClick={() => handleReset()}>
               Restart
             </button>
           </div>
         </div>
       ) : (
         <>
-          <div className='question-section'>
-            <div className='question-count'>
+          <div className="question-section">
+            <div className="question-count">
               <span>Question {currentQuestion + 1}</span>/{questions.length}
             </div>
-            <div className='question-text'>
+            <div className="question-text">
               {questions[currentQuestion].questionText}
             </div>
           </div>
-          <div className='answer-section selected'>
-            {questions[currentQuestion].answerOptions.map((answerOption) => (
-              <button className='btn' key={answerOption.answerText} onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>
-                {answerOption.answerText}
-              </button>
-            ))}
+          <div className="answer-section selected">
+            {questions[currentQuestion].answerOptions.map(
+              (answerOption, index) => (
+                <button
+                  className="btn"
+                  key={answerOption.answerText}
+                  onClick={() =>
+                    handleAnswerOptionClick(currentQuestion, index)
+                  }
+                >
+                  {answerOption.answerText}
+                </button>
+              )
+            )}
             <div>
-              <button className='btn-option' onClick={() => handleAnswerOptionClick()}>Next</button>
-              <button className='btn-option nextback' onClick={() => handleAnswerOptionBack()}>Back</button>
+              <button
+                className="btn-option"
+                onClick={() => handleAnswerOptionNext()}
+              >
+                Next
+              </button>
+              <button
+                className="btn-option nextback"
+                onClick={() => handleAnswerOptionBack()}
+              >
+                Back
+              </button>
             </div>
           </div>
         </>
       )}
     </div>
-  )
+  );
 }

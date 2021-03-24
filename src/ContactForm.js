@@ -33,13 +33,11 @@ const ContactForm = () => {
               <Form.Label>Name</Form.Label>
               <Form.Control type='text' id="name" placeholder='Enter name' required />
             </Form.Group>
-
             <Form.Group as={Col} controlId='formGridEmail'>
               <Form.Label>Email</Form.Label>
               <Form.Control type='email' id="email" placeholder='Enter email' required />
             </Form.Group>
           </Form.Row>
-
           <Form.Group controlId='formGridtext'>
             <Form.Label>Message</Form.Label>
             <textarea className='form-control form-input message textarea' id="message" rows='8' placeholder='Enter your message here'></textarea>
