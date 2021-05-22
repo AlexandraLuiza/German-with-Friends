@@ -5,8 +5,8 @@ import { Navbar, Nav } from "react-bootstrap"
 function Navigation() {
   return (
     <>
-      <div id='wrapper' className="container-fluid">
-        <div className='links'>
+      <div id='wrapper' className=" navbar">
+        <div className='container-fluid links'>
           <Navbar fixed='top' className='navbar'>
             <Navbar.Collapse id='basic-navbar-nav'>
               <Nav className='ml-auto '>
