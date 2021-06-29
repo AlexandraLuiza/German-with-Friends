@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a German Language platform which is ment to help people learn German with friends. 
+This is a German Language platform which is meant to help people learn German with friends. 
 
 Homepage
 
